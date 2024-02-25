@@ -18,6 +18,10 @@ body{
     font-family: 'lato', sans-serif;
 }
 
+/* front fot h1*/
+h1{
+    font-family: 'Oswald', sans-serif;
+}
 
 /* Header */
 header{
