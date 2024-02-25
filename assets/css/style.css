@@ -1,9 +1,19 @@
-/*Asterisk wildcard selector to override default styles added by the browser */
+/* style Rule - Asterisk wildcard selector to override default styles added by the browser */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Setting General Styles */
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    /* Generic Project Styles*/
+    color: #3a3a3a;
+}
+
 
 /* Header */
 header{
@@ -13,6 +23,8 @@ header{
 /* Manin Content */
 main{
     background-color: bisque;
+     /* Make nain element to take up extra-space and should not shrink when ther is space left in it. Any surplus space to push footer down*/
+    flex: 1 0 auto;
 }
 
 /* Footer*/
