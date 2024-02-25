@@ -22,7 +22,7 @@ body{
 /* Header */
 header{
     background-color:#ffffff; /* note this in hexidecimal  */
-    padding: 0 1rem; /* adding to padding bothleft and right*/
+    padding: 0 1rem; /* adding to padding both left and right*/
     position: fixed; /* fixing position so that scroll bar doesnt affect the header*/
     z-index: 99;  /* to make sure it's over laying any other i tems that might have z-index*/
     width: 100%; /* give it and 100% width so that he header fits the full screen*/
@@ -57,6 +57,19 @@ h1{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
+
+/* navigation bar styles with dropdown toggle on mobile divices*/
+ nav{
+    position: absolute;/* setting the position value to absolute, Absolute positioning takes an element outside the normal
+    flow of the page structure.  */
+    background-color: #ffffff; /* changing the nav bar background color to white*/
+    width: 100%; /* give it and 100% width so that he nav fits the full screen*/
+    left:0; /* to have the nav align directly aganis the left of the screen */
+    padding: 0 1rem; /* adding to padding bothleft and right*/
+    box-shadow: 0  2px 2px #3a3a3a; /*to give nice looks*/
+}
+
+
 
 /* Manin Content */
 main{
