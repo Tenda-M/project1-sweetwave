@@ -27,6 +27,9 @@ header{
     z-index: 99;  /* to make sure it's over laying any other i tems that might have z-index*/
     width: 100%; /* give it and 100% width so that he header fits the full screen*/
     box-shadow: 0  2px 2px #3a3a3a; /*to give nice looks*/
+    display: flex; /*display of flex to the header.That should make them show in a row*/
+    justify-content: space-between;/* to add space between them */
+    align-items: baseline;/* to make sure the line vertically*/
 }
 header a{
     text-decoration: none; /* to remove any text decoration*/
@@ -68,9 +71,24 @@ h1{
     padding: 0 1rem; /* adding to padding bothleft and right*/
     box-shadow: 0  2px 2px #3a3a3a; /*to give nice looks*/
     display: none; /*so the nav bar items are hidden until the user clicks to open them*/
+    top: 100%;/*this tells the navigation element that the top of the element should start at the bottom of its parent. this will allow the nav bar to appear under the menu*/
 }
 
+ /*The nav toggle  */
+#nav-toggle:checked~nav { /*When this is checked, we want the sibling nav element to display.So for that, we need the tilde to indicate that we want to target the adjoining nav element.*/
+    display: block;
+}
 
+/*. */
+ #nav-toggle{
+    display: none;  /* this is to hide the check box as we do not need it seen*/
+
+ }
+
+ /*the nav toggle label size*/
+ .nav-toggle-label{
+    font-size: 2rem; /*size*/
+ }
 
 /* Manin Content */
 main{
