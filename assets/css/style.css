@@ -28,10 +28,17 @@ header{
     width: 100%; /* give it and 100% width so that he header fits the full screen*/
     box-shadow: 0  2px 2px #3a3a3a; /*to give nice looks*/
 }
+header a{
+    text-decoration: none; /* to remove any text decoration*/
+    color: inherit;  /* take care of the default link color being applied by the browser */
+    letter-spacing: 2px;/* to give breathing space between the letters*/
+    color:magenta;
+}
 
 /* front fot h1*/
 h1{
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 /* Manin Content */
