@@ -67,6 +67,7 @@ h1{
     left:0; /* to have the nav align directly aganis the left of the screen */
     padding: 0 1rem; /* adding to padding bothleft and right*/
     box-shadow: 0  2px 2px #3a3a3a; /*to give nice looks*/
+    display: none; /*so the nav bar items are hidden until the user clicks to open them*/
 }
 
 
