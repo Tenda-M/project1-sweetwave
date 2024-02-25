@@ -95,6 +95,7 @@ main{
     background-color: bisque;
      /* Make nain element to take up extra-space and should not shrink when ther is space left in it. Any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 47px; /*to our main element to push the content down, that got covered by the header*/
 }
 
 /* Footer*/
