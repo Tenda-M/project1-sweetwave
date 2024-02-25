@@ -18,14 +18,20 @@ body{
     font-family: 'lato', sans-serif;
 }
 
-/* front fot h1*/
-h1{
-    font-family: 'Oswald', sans-serif;
-}
 
 /* Header */
 header{
-    background-color:pink;
+    background-color:#ffffff; /* note this in hexidecimal  */
+    padding: 0 1rem; /* adding to padding bothleft and right*/
+    position: fixed; /* fixing position so that scroll bar doesnt affect the header*/
+    z-index: 99;  /* to make sure it's over laying any other i tems that might have z-index*/
+    width: 100%; /* give it and 100% width so that he header fits the full screen*/
+    box-shadow: 0  2px 2px #3a3a3a; /*to give nice looks*/
+}
+
+/* front fot h1*/
+h1{
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Manin Content */
