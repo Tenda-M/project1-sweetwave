@@ -102,3 +102,31 @@ main{
 footer{
     background-color: lightpink;
 }
+
+/* Media query: tablets and larger (768px and up)  */
+@media screen and (min-width:768px){
+    
+    /*Header*/
+    /* navigation bar styles with dropdown toggle on tablet divices*/
+    nav {
+        display: block;
+        position: relative;  /*set the position to relative*/
+        box-shadow: none;/* hide the box shadow as we no longer need it  */
+        width: fit-content;/* it no longer takes up all of the space in the header */
+        padding-right: 1rem;/* so our menu items will not stick to the edge of the screen */
+
+    }
+    #menu{
+        display: flex; /*.  */
+
+    }
+
+    #menu >li {
+        padding-left: 1rem;   /* to give breathing space  */
+        
+    }
+
+    .nav-toggle-label{
+        display: none;  /* this hides the toggle X */
+    }
+}
