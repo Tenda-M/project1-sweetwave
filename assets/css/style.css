@@ -144,8 +144,8 @@ footer{
 
 /********** Large devices (laptops and desktops, 992px and up  *********/
 @media screen and (min-width:992px){
-    #menu a:hover{
-        border-bottom: 1px solid magenta;
+    #menu a:hover{ /* hover pseudo class*/
+        border-bottom: 1px solid magenta; /* hover will appear at the bottom with an underline with the chosen color*/
     }
     
 }
