@@ -98,10 +98,29 @@ main{
     margin-top: 47px; /*to our main element to push the content down, that got covered by the header*/
 }
 
-/* Footer*/
+
+/************** Footer**********************************************/
 footer{
     background-color: lightpink;
+    
 }
+#social-networks{
+    text-align: right; /*the footer social icons to be in the right*/
+    padding: 20px; /*gives padding of the icons*/
+    display:flex;  /* places them side by side horizontally*/
+    justify-content:space-evenly;  /*gives and even spacing between icons*/
+    list-style-type: none;
+}
+
+/*Social - nestworks i elements. ***/
+#social-networks i{
+    font-size:160%;
+    padding: 5%;
+    color: magenta;
+    
+}
+
+
 
 /************ Media query: tablets and larger (768px and up)**************/
 @media screen and (min-width:768px){
