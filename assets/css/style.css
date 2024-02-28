@@ -17,7 +17,11 @@ body{
     color: #3a3a3a;
     font-family: 'lato', sans-serif;
 }
-
+/* front fot h1*/
+h1, h2, h3{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
 
 /* Header */
 header{
@@ -59,11 +63,6 @@ header a{
     border-bottom: 1px solid magenta; /* underlining the home navigation bar*/
  }
 
-/* front fot h1*/
-h1{
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-}
 
 /* navigation bar styles with dropdown toggle on mobile divices*/
  nav{
@@ -103,14 +102,32 @@ main{
 }
 
 
-/* background cake */
+/* background cake section */
 #backgroundcake{
     height: 300px;
     width: 100%;
     background: url("../images/cake.webp") no-repeat center center/cover; /*use a URL with a relative path so it shows correctly on our deployed site as well.*/
+    position: relative;
 }
 
-/************** Footer**********************************************/
+/* cover text - overlaying on top of the image*/
+#cover-text{
+    background-color: rgba(241, 107, 241, 0.7); /* Red, Green, Blue, Alpha these set the opacity so it is semi-transparent*/
+    font-size: 130;
+    position: absolute;
+    bottom: 30px;
+    width: 50%;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+#cover-text > h2, #cover-text > h4{
+    color: midnightblue;
+}
+
+/************** Footer **********************************************/
 footer{
     background-color: lightpink;
     
