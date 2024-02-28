@@ -21,7 +21,7 @@ body{
 
 /* Header */
 header{
-    background-color:#ffffff; /* note this in hexidecimal  */
+    background-color:#ffffff;  /*note this in hexidecimal  */
     padding: 0 1rem; /* adding to padding both left and right*/
     position: fixed; /* fixing position so that scroll bar doesnt affect the header*/
     z-index: 99;  /* to make sure it's over laying any other i tems that might have z-index*/
@@ -31,6 +31,10 @@ header{
     justify-content: space-between;/* to add space between them */
     align-items: baseline;/* to make sure the line vertically*/
 }
+/*.image {
+	background-image: url(https://img.icons8.com/wired/64/000000/coffee.png), url(https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+	height: 250px;
+}*/
 header a{
     text-decoration: none; /* to remove any text decoration*/
     color: inherit;  /* take care of the default link color being applied by the browser */
@@ -90,14 +94,21 @@ h1{
     font-size: 2rem; /*size*/
  }
 
-/* Manin Content */
+/***************** Manin Content *****************/
 main{
-    background-color: bisque;
+    /*background-color: bisque;
      /* Make nain element to take up extra-space and should not shrink when ther is space left in it. Any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px; /*to our main element to push the content down, that got covered by the header*/
 }
 
+
+/* background cake */
+#backgroundcake{
+    height: 600px;
+    width: 100%;
+    background: url("../images/cake.webp") no-repeat center center/cover; /*use a URL with a relative path so it shows correctly on our deployed site as well.*/
+}
 
 /************** Footer**********************************************/
 footer{
@@ -117,6 +128,7 @@ footer{
     font-size:160%;
     padding: 5%;
     color: magenta;
+    
     
 }
 
