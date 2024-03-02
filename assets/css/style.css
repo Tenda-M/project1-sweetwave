@@ -170,6 +170,9 @@ main {
 
 
 /************Recipe page*************************************************/
+/*************************/
+
+/******red velvet*/
 .recipe1 {
     width: auto;
     
@@ -222,6 +225,44 @@ main {
     /*margin-left: right;*/
     /* Aligns the children items in a row direction */
     /*display: flex;*/
+    flex: 1; /* equals height:100%; it will fill entire height */
+    
+}
+
+
+/*************Scones********/
+.recipe2 {
+    width: auto;
+
+}
+.recipe>h3{
+    text-align: center;
+    color: midnightblue;
+}
+.scones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh; /* height is needed to force wrapping */
+    
+}
+
+.what-you-need2{
+    background-color: plum;
+    order: -1; /* bring them in front of other(s) */
+    height: 50%; /* share the height (if three of them, then put it down to 33.33% to share evenly height avalaible) */
+}
+
+.how-to2 {
+    background-color: thistle;
+    order: -1; /* bring them in front of other(s) */
+    height: 50%; /* share the height (if three of them, then put it down to 33.33% to share evenly height avalaible) */
+
+}
+
+/* scones image*/
+.sconespicture {
+    background: url("../images/scones.webp") no-repeat center center/cover;
     flex: 1; /* equals height:100%; it will fill entire height */
     
 }
