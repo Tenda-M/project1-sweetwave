@@ -2,117 +2,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* style Rule - Asterisk wildcard selector to override default styles added by the browser */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 /* Setting General Styles */
-body{
+body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     /* Generic Project Styles*/
     color: #3a3a3a;
     font-family: 'lato', sans-serif;
 }
+
 /* front fot h1*/
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
 
 /* Header */
-header{
-    background-color:lightpink;  /*note this in hexidecimal  */
-    padding: 0 1rem; /* adding to padding both left and right*/
-    position: fixed; /* fixing position so that scroll bar doesnt affect the header*/
-    z-index: 99;  /* to make sure it's over laying any other i tems that might have z-index*/
-    width: 100%; /* give it and 100% width so that he header fits the full screen*/
-    box-shadow: 0  2px 2px #3a3a3a; /*to give nice looks*/
-    display: flex; /*display of flex to the header.That should make them show in a row*/
-    justify-content: space-between;/* to add space between them */
-    align-items: baseline;/* to make sure the line vertically*/
+header {
+    background-color: lightpink;
+    /*note this in hexidecimal  */
+    padding: 0 1rem;
+    /* adding to padding both left and right*/
+    position: fixed;
+    /* fixing position so that scroll bar doesnt affect the header*/
+    z-index: 99;
+    /* to make sure it's over laying any other i tems that might have z-index*/
+    width: 100%;
+    /* give it and 100% width so that he header fits the full screen*/
+    box-shadow: 0 2px 2px #3a3a3a;
+    /*to give nice looks*/
+    display: flex;
+    /*display of flex to the header.That should make them show in a row*/
+    justify-content: space-between;
+    /* to add space between them */
+    align-items: baseline;
+    /* to make sure the line vertically*/
 }
+
 /*.image {
 	background-image: url(https://img.icons8.com/wired/64/000000/coffee.png), url(https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 	height: 250px;
 }*/
-header a{
-    text-decoration: none; /* to remove any text decoration*/
-    color: inherit;  /* take care of the default link color being applied by the browser */
-    letter-spacing: 2px;/* to give breathing space between the letters*/
-    color:magenta;
+header a {
+    text-decoration: none;
+    /* to remove any text decoration*/
+    color: inherit;
+    /* take care of the default link color being applied by the browser */
+    letter-spacing: 2px;
+    /* to give breathing space between the letters*/
+    color: magenta;
 }
+
 /*Rules for menu id*/
-#menu{
-    font-size: 110%; /* text slightly larger than 110% */
-    letter-spacing: 4px ;   /* letters space by 4px  */
-    list-style-type: none;  /* remove pullet points on the list */
-     
+#menu {
+    font-size: 110%;
+    /* text slightly larger than 110% */
+    letter-spacing: 4px;
+    /* letters space by 4px  */
+    list-style-type: none;
+    /* remove pullet points on the list */
+
 }
- /* Rules for list in menu*/
- #menu > li{
-    margin-bottom: 1em;/* increase spacing by the bottom marging*/
 
- }
+/* Rules for list in menu*/
+#menu>li {
+    margin-bottom: 1em;
+    /* increase spacing by the bottom marging*/
 
- /* Rules for home usiing class active */
- .active{
-    border-bottom: 1px solid magenta; /* underlining the home navigation bar*/
- }
+}
+
+/* Rules for home usiing class active */
+.active {
+    border-bottom: 1px solid magenta;
+    /* underlining the home navigation bar*/
+}
 
 
 /* navigation bar styles with dropdown toggle on mobile divices*/
- nav{
-    position: absolute;/* setting the position value to absolute, Absolute positioning takes an element outside the normal
+nav {
+    position: absolute;
+    /* setting the position value to absolute, Absolute positioning takes an element outside the normal
     flow of the page structure.  */
-    background-color: lightpink; /* changing the nav bar background color to white*/
-    width: 100%; /* give it and 100% width so that he nav fits the full screen*/
-    left:0; /* to have the nav align directly aganis the left of the screen */
-    padding: 0 1rem; /* adding to padding bothleft and right*/
-    box-shadow: 0  2px 2px #3a3a3a; /*to give nice looks*/
-    display: none; /*so the nav bar items are hidden until the user clicks to open them*/
-    top: 100%;/*this tells the navigation element that the top of the element should start at the bottom of its parent. this will allow the nav bar to appear under the menu*/
+    background-color: lightpink;
+    /* changing the nav bar background color to white*/
+    width: 100%;
+    /* give it and 100% width so that he nav fits the full screen*/
+    left: 0;
+    /* to have the nav align directly aganis the left of the screen */
+    padding: 0 1rem;
+    /* adding to padding bothleft and right*/
+    box-shadow: 0 2px 2px #3a3a3a;
+    /*to give nice looks*/
+    display: none;
+    /*so the nav bar items are hidden until the user clicks to open them*/
+    top: 100%;
+    /*this tells the navigation element that the top of the element should start at the bottom of its parent. this will allow the nav bar to appear under the menu*/
 }
 
- /*The nav toggle  */
-#nav-toggle:checked~nav { /*When this is checked, we want the sibling nav element to display.So for that, we need the tilde to indicate that we want to target the adjoining nav element.*/
+/*The nav toggle  */
+#nav-toggle:checked~nav {
+    /*When this is checked, we want the sibling nav element to display.So for that, we need the tilde to indicate that we want to target the adjoining nav element.*/
     display: block;
 }
 
 /*. */
- #nav-toggle{
-    display: none;  /* this is to hide the check box as we do not need it seen*/
+#nav-toggle {
+    display: none;
+    /* this is to hide the check box as we do not need it seen*/
 
- }
+}
 
- /*the nav toggle label size*/
- .nav-toggle-label{
-    font-size: 2rem; /*size*/
- }
+/*the nav toggle label size*/
+.nav-toggle-label {
+    font-size: 2rem;
+    /*size*/
+}
 
+/************************************************************************/
 /***************** Manin Content *****************/
-main{
+/************************************************************************/
+main {
     /*background-color: bisque;
      /* Make nain element to take up extra-space and should not shrink when ther is space left in it. Any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 47px; /*to our main element to push the content down, that got covered by the header*/
+    margin-top: 47px;
+    /*to our main element to push the content down, that got covered by the header*/
 }
 
 
+/*********************** Main page **********************************/
 /* background cake section */
-#backgroundcake{
+#backgroundcake {
     height: 300px;
     width: 100%;
-    background: url("../images/cake.webp") no-repeat center center/cover; /*use a URL with a relative path so it shows correctly on our deployed site as well.*/
+    background: url("../images/cake.webp") no-repeat center center/cover;
+    /*use a URL with a relative path so it shows correctly on our deployed site as well.*/
     position: relative;
 }
 
 /* cover text - overlaying on top of the image*/
-#cover-text{
-    background-color: rgba(241, 107, 241, 0.7); /* Red, Green, Blue, Alpha these set the opacity so it is semi-transparent*/
+#cover-text {
+    background-color: rgba(241, 107, 241, 0.7);
+    /* Red, Green, Blue, Alpha these set the opacity so it is semi-transparent*/
     font-size: 130;
     position: absolute;
     bottom: 30px;
@@ -123,64 +163,142 @@ main{
 
 }
 
-#cover-text > h2, #cover-text > h4{
+#cover-text>h2,
+#cover-text>h4 {
     color: midnightblue;
 }
 
-/************** Footer **********************************************/
-footer{
-    background-color: lightpink;
+
+/************Recipe page*************************************************/
+.recipe1 {
+    width: auto;
+    
+    /*margin: 10px auto;*/
+}
+.recipe>h3{
+    text-align: center;
+    color: midnightblue;
+}
+.red-velvet {
+    /*margin-bottom: 20px;
+    text-align:left;
+    font-size: 280;
+   flex-direction: column;
+    height: 100px;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh; /* height is needed to force wrapping */
     
 }
-#social-networks{
-    text-align: right; /*the footer social icons to be in the right*/
-    padding: 20px; /*gives padding of the icons*/
-    display:flex;  /* places them side by side horizontally*/
-    justify-content:space-evenly;  /*gives and even spacing between icons*/
+
+.what-you-need {
+    /* line-height: 20px;
+    margin-bottom: 20px;*/
+    background-color: plum;
+    /*width: 50%;*/
+    /* margin-left: auto;*/
+    order: -1; /* bring them in front of other(s) */
+    height: 50%; /* share the height (if three of them, then put it down to 33.33% to share evenly height avalaible) */
+}
+
+.how-to {
+    /*line-height: 20px;
+    margin-bottom: 20px;*/
+    background-color: thistle;
+    /*width: 50%;*/
+    /* margin-left: auto;*/
+    order: -1; /* bring them in front of other(s) */
+    height: 50%; /* share the height (if three of them, then put it down to 33.33% to share evenly height avalaible) */
+
+}
+
+/* red velvet cake image*/
+.cakepicture {
+    /*height: 100px;
+    width: 50%;*/
+    background: url("../images/red-velvet-cake.webp") no-repeat center center/cover;
+    /*use a URL with a relative path so it shows correctly on our deployed site as well.*/
+    /*margin-left: right;*/
+    /* Aligns the children items in a row direction */
+    /*display: flex;*/
+    flex: 1; /* equals height:100%; it will fill entire height */
+    
+}
+
+/************************************************************************/
+/************** Footer **********************************************/
+/************************************************************************/
+footer {
+    background-color: lightpink;
+
+}
+
+#social-networks {
+    text-align: right;
+    /*the footer social icons to be in the right*/
+    padding: 20px;
+    /*gives padding of the icons*/
+    display: flex;
+    /* places them side by side horizontally*/
+    justify-content: space-evenly;
+    /*gives and even spacing between icons*/
     list-style-type: none;
 }
 
 /*Social - networks i elements. ***/
-#social-networks i{
-    font-size:160%;
+#social-networks i {
+    font-size: 160%;
     padding: 5%;
     color: magenta;
-    
-    
+
+
 }
 
 
 
 /************ Media query: tablets and larger (768px and up)**************/
-@media screen and (min-width:768px){
-    
+@media screen and (min-width:768px) {
+
     /*Header*/
     /* navigation bar styles with dropdown toggle on tablet divices*/
     nav {
         display: block;
-        position: relative;  /*set the position to relative*/
-        box-shadow: none;/* hide the box shadow as we no longer need it  */
-        width: fit-content;/* it no longer takes up all of the space in the header */
-        padding-right: 1rem;/* so our menu items will not stick to the edge of the screen */
+        position: relative;
+        /*set the position to relative*/
+        box-shadow: none;
+        /* hide the box shadow as we no longer need it  */
+        width: fit-content;
+        /* it no longer takes up all of the space in the header */
+        padding-right: 1rem;
+        /* so our menu items will not stick to the edge of the screen */
 
     }
-    #menu{
-        display: flex; /*.  */
+
+    #menu {
+        display: flex;
+        /*.  */
 
     }
 
-    #menu >li {
-        padding-left: 1rem;   /* to give breathing space  */
-        
+    #menu>li {
+        padding-left: 1rem;
+        /* to give breathing space  */
+
     }
 
-    .nav-toggle-label{
-        display: none;  /* this hides the toggle X */
+    .nav-toggle-label {
+        display: none;
+        /* this hides the toggle X */
     }
-    #logo{
-        font-size: 280%; /* to make use of the new space in tablet and make font bigger to fill the space*/
-        line-height: 75px; /* to give more space at the top*/
-        margin: 0 0.5rem; /* extra margin to the left and right */
+
+    #logo {
+        font-size: 280%;
+        /* to make use of the new space in tablet and make font bigger to fill the space*/
+        line-height: 75px;
+        /* to give more space at the top*/
+        margin: 0 0.5rem;
+        /* extra margin to the left and right */
     }
 
     /*Main Content */
@@ -191,9 +309,11 @@ footer{
 }
 
 /********** Large devices (laptops and desktops, 992px and up  *********/
-@media screen and (min-width:992px){
-    #menu a:hover{ /* hover pseudo class*/
-        border-bottom: 1px solid magenta; /* hover will appear at the bottom with an underline with the chosen color*/
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        /* hover pseudo class*/
+        border-bottom: 1px solid magenta;
+        /* hover will appear at the bottom with an underline with the chosen color*/
     }
-    
+
 }
