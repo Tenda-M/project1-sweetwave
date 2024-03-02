@@ -172,13 +172,13 @@ main {
 /************Recipe page*************************************************/
 /*************************/
 
-/******red velvet*/
+/******red velvet*******/
 .recipe1 {
     width: auto;
     
     /*margin: 10px auto;*/
 }
-.recipe>h3{
+.recipe1>h3{
     text-align: center;
     color: midnightblue;
 }
@@ -226,6 +226,8 @@ main {
     /* Aligns the children items in a row direction */
     /*display: flex;*/
     flex: 1; /* equals height:100%; it will fill entire height */
+    text-align:center;
+    color: midnightblue;
     
 }
 
@@ -235,7 +237,7 @@ main {
     width: auto;
 
 }
-.recipe>h3{
+.recipe2>h3{
     text-align: center;
     color: midnightblue;
 }
@@ -264,6 +266,8 @@ main {
 .sconespicture {
     background: url("../images/scones.webp") no-repeat center center/cover;
     flex: 1; /* equals height:100%; it will fill entire height */
+    text-align:center;
+    color: midnightblue;
     
 }
 
