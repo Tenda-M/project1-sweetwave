@@ -28,7 +28,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: lightpink;
+    background-color:lightpink;
     /*note this in hexidecimal  */
     padding: 0 1rem;
     /* adding to padding both left and right*/
@@ -153,7 +153,7 @@ main {
 #backgroundcake {
     height: 300px;
     width: 100%;
-    background: url("../images/cake.webp") no-repeat center center/cover;
+    background: url("../images/berry-muffin.webp") no-repeat center center/cover;
     /*use a URL with a relative path so it shows correctly on our deployed site as well.*/
     position: relative;
 }
@@ -174,10 +174,47 @@ main {
     padding: 30px;
 }
 
-#cover-text>h2,
+/*************about section **************/
+#about-text{
+    background-color: aqua;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 500px;
+}
+/*
+.about-image{
+    display: flex; /*background: url("../images/Upsidedown-pinapple-cake.webp") no-repeat center center/cover;
+}
+
+.about-images{/* Three image containers (use 25% for four, and 50% for two, etc) 
+    flex:100%;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+  }************/
 /*#cover-text>h4 {
     color: midnightblue;
 }*/
+.about-images img{
+    width: 100%;
+    object-fit: contain;
+     padding: 2px;
+     height: 90%;
+    
+}
+
+.about-image{
+    line-height: 1em;
+    display: flex;
+    
+}
+.about-image h4{
+    line-height: 1em;
+    display: flex;
+    padding: 5%
+}
 
 
 /************Recipe page*************************************************/
@@ -287,7 +324,7 @@ main {
 /************************************************************************/
 /************Contact us top section ***************/
 #contact-us{
-    text-align: center;
+    
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
@@ -332,6 +369,7 @@ main {
     border: 1px solid #fafafa;
     border-radius: 2px;   
     padding: 0 5px;
+    text-align: left;
 }
 
 /*********Join button*************/
