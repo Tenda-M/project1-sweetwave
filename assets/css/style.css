@@ -160,7 +160,7 @@ main {
 
 /* cover text - overlaying on top of the image*/
 #cover-text {
-    background-color: rgba(241, 107, 241, 0.7);
+    /*background-color: rgba(241, 107, 241, 0.7);*/
     /* Red, Green, Blue, Alpha these set the opacity so it is semi-transparent*/
     font-size: 130;
     position: absolute;
@@ -169,13 +169,15 @@ main {
     min-height: 100px;
     padding-top: 20px;
     padding-left: 10px;
-
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
 }
 
 #cover-text>h2,
-#cover-text>h4 {
+/*#cover-text>h4 {
     color: midnightblue;
-}
+}*/
 
 
 /************Recipe page*************************************************/
