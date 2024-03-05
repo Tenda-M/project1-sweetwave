@@ -136,11 +136,15 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
     /*to our main element to push the content down, that got covered by the header*/
+
+     /* Enable flex properties for child elements */
+     display: flex;
+     flex-direction: column;
 }
 
-/********************************************************************/
+/******************************************************************************************************************************/
 /*********************** Main page **********************************/
-/********************************************************************/
+/*****************************************************************************************************************************/
 
 /************home page*************************************************/
 /************************************************************************/
@@ -276,9 +280,72 @@ main {
     
 }
 
+
+/************Contact Us page*************************************************/
 /************************************************************************/
+/************Contact us top section ***************/
+#contact-us{
+    text-align: center;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+/************Signup ***************/
+#signup {
+    background-image: url("../images/bun.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+ /*****************signup form********************/
+
+ #signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+/************form heading*************/
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+/*********input form text*****************/
+.text-input {
+    background: transparent;
+    color: #fafafa; 
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;   
+    padding: 0 5px;
+}
+#textform{
+    background: transparent;
+    color: #fafafa; 
+    width: 100%;
+    height: 100px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;   
+    padding: 0 5px;
+}
+
+/*********Join button*************/
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color:magenta;
+    color: #fafafa;
+}
+
+
+/*********************************************************************************************************************************/
 /************** Footer **********************************************/
-/************************************************************************/
+/*********************************************************************************************************************************/
 footer {
     background-color: lightpink;
 
