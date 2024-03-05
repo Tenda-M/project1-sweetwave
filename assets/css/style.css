@@ -28,7 +28,7 @@ h3 {
 
 /* Header */
 header {
-    background-color:lightpink;
+    background-color: lightpink;
     /*note this in hexidecimal  */
     padding: 0 1rem;
     /* adding to padding both left and right*/
@@ -137,9 +137,9 @@ main {
     margin-top: 47px;
     /*to our main element to push the content down, that got covered by the header*/
 
-     /* Enable flex properties for child elements */
-     display: flex;
-     flex-direction: column;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /******************************************************************************************************************************/
@@ -175,7 +175,7 @@ main {
 }
 
 /*************about section **************/
-#about-text{
+#about-text {
     background-color: aqua;
     text-align: center;
     padding-top: 20px;
@@ -183,6 +183,7 @@ main {
     padding-right: 50px;
     height: 500px;
 }
+
 /*
 .about-image{
     display: flex; /*background: url("../images/Upsidedown-pinapple-cake.webp") no-repeat center center/cover;
@@ -197,20 +198,19 @@ main {
 /*#cover-text>h4 {
     color: midnightblue;
 }*/
-.about-images img{
+.about-images img {
     width: 100%;
     object-fit: contain;
-     padding: 2px;
-     height: 90%;
-    
+    padding: 2px;
 }
 
-.about-image{
+.about-image {
     line-height: 1em;
     display: flex;
-    
+
 }
-.about-image h4{
+
+.about-image h4 {
     line-height: 1em;
     display: flex;
     padding: 5%
@@ -221,113 +221,45 @@ main {
 /************************************************************************/
 
 /******red velvet*******/
-.recipe1 {
-    width: auto;
-    
-    /*margin: 10px auto;*/
-}
-.recipe1>h3{
-    text-align: center;
-    color: midnightblue;
-}
 .red-velvet {
-    /*margin-bottom: 20px;
-    text-align:left;
-    font-size: 280;
-   flex-direction: column;
-    height: 100px;*/
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 50vh; /* height is needed to force wrapping */
+  align-items: center;
+  /*justify-content: center*/
+  padding-left: 20%;
+  border-bottom: 1px solid #888;
+   }
     
-}
-
-.what-you-need {
-    /* line-height: 20px;
-    margin-bottom: 20px;*/
-    background-color: plum;
-    /*width: 50%;*/
-    /* margin-left: auto;*/
-    order: -1; /* bring them in front of other(s) */
-    height: 50%; /* share the height (if three of them, then put it down to 33.33% to share evenly height avalaible) */
-}
-
-.how-to {
-    /*line-height: 20px;
-    margin-bottom: 20px;*/
-    background-color: thistle;
-    /*width: 50%;*/
-    /* margin-left: auto;*/
-    order: -1; /* bring them in front of other(s) */
-    height: 50%; /* share the height (if three of them, then put it down to 33.33% to share evenly height avalaible) */
-
-}
-
-/* red velvet cake image*/
-.cakepicture {
-    /*height: 100px;
-    width: 50%;*/
-    background: url("../images/red-velvet-cake.webp") no-repeat center center/cover;
-    /*use a URL with a relative path so it shows correctly on our deployed site as well.*/
-    /*margin-left: right;*/
-    /* Aligns the children items in a row direction */
-    /*display: flex;*/
-    flex: 1; /* equals height:100%; it will fill entire height */
+.red-velvet-text {
+    font-size: 20px;
     text-align:center;
-    color: midnightblue;
+  }
+
+.red-velvet-image img{
+    
+    max-width: 50%;
+    max-height:40%;
+    position:relative;
     
 }
 
-
-/*************Scones********/
-.recipe2 {
-    width: auto;
-
-}
-.recipe2>h3{
-    text-align: center;
-    color: midnightblue;
-}
-.scones {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 50vh; /* height is needed to force wrapping */
-    
+.red-velvet-image{
+    background-color: antiquewhite;
 }
 
-.what-you-need2{
-    background-color: plum;
-    order: -1; /* bring them in front of other(s) */
-    height: 50%; /* share the height (if three of them, then put it down to 33.33% to share evenly height avalaible) */
-}
-
-.how-to2 {
-    background-color: thistle;
-    order: -1; /* bring them in front of other(s) */
-    height: 50%; /* share the height (if three of them, then put it down to 33.33% to share evenly height avalaible) */
-
-}
-
-/* scones image*/
-.sconespicture {
-    background: url("../images/scones.webp") no-repeat center center/cover;
-    flex: 1; /* equals height:100%; it will fill entire height */
-    text-align:center;
-    color: midnightblue;
-    
+#instructions-1 {
+    background-color: bisque;
 }
 
 
 /************Contact Us page*************************************************/
 /************************************************************************/
 /************Contact us top section ***************/
-#contact-us{
-    
+#contact-us {
+
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
+
 /************Signup ***************/
 #signup {
     background-image: url("../images/bun.webp");
@@ -337,37 +269,40 @@ main {
     flex-grow: 1;
 }
 
- /*****************signup form********************/
+/*****************signup form********************/
 
- #signup-form {
+#signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
+
 /************form heading*************/
 #signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
+
 /*********input form text*****************/
 .text-input {
     background: transparent;
-    color: #fafafa; 
+    color: #fafafa;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius: 2px;   
+    border-radius: 2px;
     padding: 0 5px;
 }
-#textform{
+
+#textform {
     background: transparent;
-    color: #fafafa; 
+    color: #fafafa;
     width: 100%;
     height: 100px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius: 2px;   
+    border-radius: 2px;
     padding: 0 5px;
     text-align: left;
 }
@@ -378,7 +313,7 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color:magenta;
+    background-color: magenta;
     color: #fafafa;
 }
 
