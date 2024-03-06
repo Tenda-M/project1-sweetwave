@@ -172,16 +172,27 @@ main {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    h4{
+        font-size: 20px;
+    }
 }
 
 /*************about section **************/
+#about-section{
+    width: 100%;
+    position: absolute;
+}
 #about-text {
     background-color: bisque;
     text-align: center;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 500px;
+    /*padding-top: 20px;
+    padding-left: 400px;
+    padding-right: 400px;*/
+    height:auto;
+
+    p{
+        font-size: 20px;
+    }
 }
 
 /*
@@ -208,9 +219,9 @@ main {
 .about-images{
     width: calc(100%/3); /*dividin the space given by container by 3*/   
 }
-.about-images img {
+.about-images>img {
     width: 100%;
-    height: auto;
+   height: auto;
     object-fit: contain;
     padding: 1px;
     
