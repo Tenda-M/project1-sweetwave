@@ -176,7 +176,7 @@ main {
 
 /*************about section **************/
 #about-text {
-    background-color: aqua;
+    background-color: bisque;
     text-align: center;
     padding-top: 20px;
     padding-left: 50px;
@@ -198,22 +198,29 @@ main {
 /*#cover-text>h4 {
     color: midnightblue;
 }*/
-.about-images img {
-    width: 100%;
-    object-fit: contain;
-    padding: 2px;
-}
-
 .about-image {
     line-height: 1em;
     display: flex;
+    max-width: 100%;
+    max-height: 0%;
 
+}
+.about-images{
+    width: calc(100%/3); /*dividin the space given by container by 3*/   
+}
+.about-images img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 1px;
+    
 }
 
 .about-image h4 {
     line-height: 1em;
     display: flex;
-    padding: 5%
+    flex: calc(600/800)
+    padding: 1%
 }
 
 
@@ -221,7 +228,7 @@ main {
 /************************************************************************/
 
 /******red velvet*******/
-.container1 {
+.container {
     display: flex;
     align-items: center;
    /* border-bottom: 1px solid #888;
@@ -252,13 +259,32 @@ main {
     text-align: center;
     margin: auto;
     width: 90%;
-}
-
-.what-you-need{
+    h4{
+        text-decoration-line: underline;
+        font-size: 25px;
+    }
+    h5{
+        font-weight:bolder;
+        font-size: 15px;
+    }
     ul {
         list-style-type: none; /*remove unwanted pollet points*/
 
       }
+}
+/******** fruit scone display*******/
+.container1 {
+    display: flex;
+    align-items: center;
+   /* border-bottom: 1px solid #888;
+    background-color: blueviolet;*/
+    max-width: 100%;
+    max-height: 100%;
+    padding-top:5%;
+}
+
+.what-you-need{
+    
 }
 .instructions-1 hr {
     color:chocolate;
@@ -267,15 +293,18 @@ main {
 
   /*** Preparation ***/
   .preparation{
-    text-align: left;
+    
     ul {
         list-style-type: none; /*remove unwanted pollet points*/
-
+        text-align: left;
       }
+    li{
+        
+    }
   }
-
+/****************************************************************************/
 /************Contact Us page*************************************************/
-/************************************************************************/
+/****************************************************************************/
 /************Contact us top section ***************/
 #contact-us {
 
@@ -285,18 +314,21 @@ main {
 
 /************Signup ***************/
 #signup {
-    background-image: url("../images/bun.webp");
+    /*background-image: url("../images/bun.webp");*/
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    background-color: lightsalmon;
+    
 }
 
 /*****************signup form********************/
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+   background-color: rgba(60, 60, 60, 0.6);
+   
     padding: 30px;
 }
 
