@@ -239,35 +239,29 @@ main {
     padding: 1%;
 }
 
-
+/************************************************************************/
 /************Recipe page*************************************************/
 /************************************************************************/
 
-/******red velvet*******/
+/******red velvet Recipe*******/
 .container {
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
-   /* border-bottom: 1px solid #888;
-    background-color: blueviolet;*/
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.red-velvet {
-   width: calc(100%/2); /*dividin the space given by container by 2*/
-   height: calc(100%/2);
+    text-align: center;
 }
 
 .text1 {
     font-size: 20px;
-    text-align: center;
+    text-align:center;
     text-size-adjust: initial;
-   /* background-color: aquamarine;*/  
+    padding-left: 20%;
 }
 /*** red velvel cake image****/
 .image1 img {
     max-width: 60%;
     max-height: 80%;
+    
 }
 
 .instructions-1 {
@@ -288,20 +282,45 @@ main {
 
       }
 }
-/******** fruit scone display*******/
+/******** fruit scone Recipe*******/
 .container1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-   /* border-bottom: 1px solid #888;
-    background-color: blueviolet;*/
-    max-width: 100%;
-    max-height: 100%;
+    text-align: center;
     padding-top:5%;
-}
 
-.what-you-need{
+}
+.text2 {
+    font-size: 20px;
+    text-align:center;
+    text-size-adjust: initial;
+    padding-left: 20%;
+}
+/*** red velvel cake image****/
+.image2 img {
+    max-width: 60%;
+    max-height: 80%;
     
 }
+.instructions-2 {
+    background-color: bisque;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    h4{
+        text-decoration-line: underline;
+        font-size: 25px;
+    }
+    h5{
+        font-weight:bolder;
+        font-size: 15px;
+    }
+    ul {
+        list-style-type: none; /*remove unwanted pollet points*/
+
+      }
+
 .instructions-1 hr {
     color:chocolate;
     border-top: 1px solid;
@@ -314,10 +333,7 @@ main {
         list-style-type: none; /*remove unwanted pollet points*/
         text-align: left;
       }
-    li{
-        
-    }
-  }
+  
 /****************************************************************************/
 /************Contact Us page*************************************************/
 /****************************************************************************/
