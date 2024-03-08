@@ -249,11 +249,17 @@ main {
 /************************************************************************/
 
 /******red velvet Recipe*******/
+.recipe1{
+    background-color:lavenderblush;
+    background-image: url("../images/istockphoto-1222596313-1024x1024.webp");
+    background-size: cover;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+   
 }
 
 /*** red velvel cake Text****/
@@ -269,6 +275,7 @@ main {
     max-width: 60%;
     max-height: 80%;
 }
+
 /*** red velvel cake instructions****/
 .instructions-1 {
     background-color: bisque;
@@ -361,23 +368,24 @@ main {
 
 /************Signup ***************/
 #signup {
-    /*background-image: url("../images/bun.webp");*/
+    background-image: url("../images/bread_1.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    background-color: lightsalmon;
+    /*background-color: lightsalmon;*/
 
 }
 
 /*****************Signup form********************/
-#signup{
+#signup {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
+
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(29, 26, 26, 0.6);
     padding: 30px;
 }
 
@@ -423,15 +431,16 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-     /* Form */
-     #signup {
+
+    /* Form */
+    #signup {
         background-position: center;
         position: relative;
     }
 
     #signup-form {
         max-width: 400px;
-        position:absolute;
+        /* position:absolute;*/
         left: 10%;
         top: 150px;
     }
@@ -445,6 +454,7 @@ main {
         color: #454b1b;
     }
 }
+
 /*********************************************************************************************************************************/
 /************** Footer **********************************************/
 /*********************************************************************************************************************************/
