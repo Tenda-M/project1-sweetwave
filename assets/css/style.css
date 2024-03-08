@@ -18,7 +18,7 @@ body {
     font-family: 'lato', sans-serif;
 }
 
-/* front fot h1*/
+/* front for h1*/
 h1,
 h2,
 h3 {
@@ -28,7 +28,7 @@ h3 {
 
 /* Header */
 header {
-    background-color:coral;
+    background-color: coral;
     /*note this in hexidecimal  */
     padding: 0 1rem;
     /* adding to padding both left and right*/
@@ -59,7 +59,7 @@ header a {
     /* take care of the default link color being applied by the browser */
     letter-spacing: 2px;
     /* to give breathing space between the letters*/
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 /*Rules for menu id*/
@@ -92,7 +92,7 @@ nav {
     position: absolute;
     /* setting the position value to absolute, Absolute positioning takes an element outside the normal
     flow of the page structure.  */
-    background-color:coral;
+    background-color: coral;
     /* changing the nav bar background color to white*/
     width: 100%;
     /* give it and 100% width so that he nav fits the full screen*/
@@ -129,7 +129,6 @@ nav {
 
 /************************************************************************/
 /***************** Manin Content *****************/
-/************************************************************************/
 main {
     /*background-color: bisque;
      /* Make nain element to take up extra-space and should not shrink when ther is space left in it. Any surplus space to push footer down*/
@@ -172,26 +171,28 @@ main {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
-    h4{
+
+    h4 {
         font-size: 20px;
     }
 }
 
 /*************about section **************/
-#about-section{
+#about-section {
     width: 100%;
     position: absolute;
 }
+
 #about-text {
-    background-color:bisque;
+    background-color: bisque;
     text-align: center;
     /*padding-top: 20px;
     padding-left: 400px;
     padding-right: 400px;*/
-    height:auto;
+    height: auto;
     padding: 5px;
 
-    p{
+    p {
         font-size: 20px;
     }
 }
@@ -216,23 +217,27 @@ main {
 }*/
 
 .about-image {
-    display: flex;/*to put image in a row*/
-    flex-wrap:wrap;
-    width:100%;
-    height:auto;
-    background-color:bisque;
+    display: flex;
+    /*to put image in a row*/
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: bisque;
 }
-.about-image img{
-    width:95%; /* use 95% of the given space*/
-    height:95%;
+
+.about-image img {
+    width: 95%;
+    /* use 95% of the given space*/
+    height: 95%;
 }
-.about-image div{
-   text-align: center;
-   /* this will not wrap for screen less than 200px*/
-   /*each div will expand to rit the available space in it's row*/
-   flex-basis: 200px;
-   flex-grow: 1;
-   padding-bottom: 3%;
+
+.about-image div {
+    text-align: center;
+    /* this will not wrap for screen less than 200px*/
+    /*each div will expand to rit the available space in it's row*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding-bottom: 3%;
 }
 
 .about-image h4 {
@@ -246,94 +251,104 @@ main {
 /******red velvet Recipe*******/
 .container {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
 
+/*** red velvel cake Text****/
 .text1 {
     font-size: 20px;
-    text-align:center;
+    text-align: center;
     text-size-adjust: initial;
     padding-left: 20%;
 }
+
 /*** red velvel cake image****/
 .image1 img {
     max-width: 60%;
     max-height: 80%;
-    
 }
-
+/*** red velvel cake instructions****/
 .instructions-1 {
     background-color: bisque;
     text-align: center;
     margin: auto;
     width: 90%;
-    h4{
+
+    h4 {
         text-decoration-line: underline;
         font-size: 25px;
     }
-    h5{
-        font-weight:bolder;
+
+    h5 {
+        font-weight: bolder;
         font-size: 15px;
     }
-    ul {
-        list-style-type: none; /*remove unwanted pollet points*/
 
-      }
+    ul {
+        list-style-type: none;
+        /*remove unwanted pollet points*/
+
+    }
+
+    hr {
+        color: chocolate;
+        border-top: 1px solid;
+    }
 }
+
 /******** fruit scone Recipe*******/
 .container1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    padding-top:5%;
-
+    padding-top: 5%;
 }
+
 .text2 {
     font-size: 20px;
-    text-align:center;
+    text-align: center;
     text-size-adjust: initial;
     padding-left: 20%;
 }
+
 /*** red velvel cake image****/
 .image2 img {
     max-width: 60%;
     max-height: 80%;
-    
+
 }
+
 .instructions-2 {
     background-color: bisque;
     text-align: center;
     margin: auto;
     width: 90%;
-    h4{
+
+    h4 {
         text-decoration-line: underline;
         font-size: 25px;
     }
-    h5{
-        font-weight:bolder;
+
+    h5 {
+        font-weight: bolder;
         font-size: 15px;
     }
+
     ul {
-        list-style-type: none; /*remove unwanted pollet points*/
+        list-style-type: none;
+        /*remove unwanted pollet points*/
 
-      }
+    }
 
-.instructions-1 hr {
-    color:chocolate;
-    border-top: 1px solid;
-  }
+    hr {
+        color: chocolate;
+        border-top: 1px solid;
+    }
+}
 
-  /*** Preparation ***/
-  .preparation{
-    
-    ul {
-        list-style-type: none; /*remove unwanted pollet points*/
-        text-align: left;
-      }
-  
 /****************************************************************************/
 /************Contact Us page*************************************************/
 /****************************************************************************/
@@ -352,15 +367,17 @@ main {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
     background-color: lightsalmon;
-    
+
 }
 
-/*****************signup form********************/
-
+/*****************Signup form********************/
+#signup{
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
 #signup-form {
     color: #ffffff;
-   background-color: rgba(60, 60, 60, 0.6);
-   
+    background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
@@ -404,12 +421,35 @@ main {
     color: coral;
 }
 
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+     /* Form */
+     #signup {
+        background-position: center;
+        position: relative;
+    }
 
+    #signup-form {
+        max-width: 400px;
+        position:absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+}
 /*********************************************************************************************************************************/
 /************** Footer **********************************************/
 /*********************************************************************************************************************************/
 footer {
-    background-color:coral;
+    background-color: coral;
 
 }
 
@@ -429,7 +469,7 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color:whitesmoke;
+    color: whitesmoke;
 
 
 }
