@@ -121,9 +121,10 @@ nav {
 
 }
 
-/*the nav toggle label size*/
+/*the nav toggle label size and color*/
 .nav-toggle-label {
     font-size: 2rem;
+    color: whitesmoke;
     /*size*/
 }
 
