@@ -171,7 +171,7 @@ main {
     padding-left: 10px;
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+    padding: 15px;
 
     h4 {
         font-size: 20px;
@@ -250,21 +250,22 @@ main {
 /************************************************************************/
 
 /******red velvet Recipe*******/
-.recipe1{
-    background-color:lavenderblush;
-    background-image: url("../images/istockphoto-1222596313-1024x1024.webp");
+.recipe1 {
+   background-color: lavenderblush;
+    /*background-image: url("../images/plain-white-powder-texture-background.webp");*/
     background-size: cover;
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-   
+
 }
 
 /*** red velvel cake Text****/
-.text1 {
+.side-bake-text {
     font-size: 20px;
     text-align: center;
     text-size-adjust: initial;
@@ -272,17 +273,19 @@ main {
 }
 
 /*** red velvel cake image****/
-.image1 img {
+.recipe-image1 img {
     max-width: 60%;
     max-height: 80%;
 }
 
 /*** red velvel cake instructions****/
-.instructions-1 {
+.instructions{
     background-color: bisque;
     text-align: center;
     margin: auto;
     width: 90%;
+    list-style-type: none;
+    /*remove unwanted pollet points*/
 
     h4 {
         text-decoration-line: underline;
@@ -294,19 +297,43 @@ main {
         font-size: 15px;
     }
 
-    ul {
-        list-style-type: none;
-        /*remove unwanted pollet points*/
-
-    }
-
     hr {
         color: chocolate;
         border-top: 1px solid;
     }
+
 }
 
-/******** fruit scone Recipe*******/
+.preparation {
+    text-align: left;
+
+    h4 {
+        text-align: center;
+    }
+
+    h5 {
+        font-weight: bolder;
+    }
+
+    p {
+        text-indent: 2%;
+    }
+}
+
+
+/******** fruit scone Recipe divider *******/
+#page-divide{
+        margin: 2em auto;
+        /* centred margin */
+        height: 4px;
+        /* thickness of the line */
+        background-color: coral;
+        /* colour of the line */
+        border: none;
+        /* no border */
+        width: 60%;
+}
+/*
 .container1 {
     display: flex;
     flex-wrap: wrap;
@@ -322,7 +349,7 @@ main {
     padding-left: 20%;
 }
 
-/*** red velvel cake image****/
+/*** red velvel cake image****
 .image2 img {
     max-width: 60%;
     max-height: 80%;
@@ -347,16 +374,17 @@ main {
 
     ul {
         list-style-type: none;
-        /*remove unwanted pollet points*/
+        /*remove unwanted pollet points
 
     }
 
     hr {
         color: chocolate;
         border-top: 1px solid;
+        width: 100%;
     }
 }
-
+*/
 /****************************************************************************/
 /************Contact Us page*************************************************/
 /****************************************************************************/
@@ -386,7 +414,7 @@ main {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(29, 26, 26, 0.6);
+    background-color: rgba(17, 14, 11, 0.849);
     padding: 30px;
 }
 
