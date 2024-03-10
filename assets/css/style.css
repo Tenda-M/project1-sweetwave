@@ -251,7 +251,7 @@ main {
 
 /******red velvet Recipe*******/
 .recipe1 {
-   background-color: lavenderblush;
+    background-color: lavenderblush;
     /*background-image: url("../images/plain-white-powder-texture-background.webp");*/
     background-size: cover;
 }
@@ -279,7 +279,7 @@ main {
 }
 
 /*** red velvel cake instructions****/
-.instructions{
+.instructions {
     background-color: bisque;
     text-align: center;
     margin: auto;
@@ -322,17 +322,18 @@ main {
 
 
 /******** fruit scone Recipe divider *******/
-#page-divide{
-        margin: 2em auto;
-        /* centred margin */
-        height: 4px;
-        /* thickness of the line */
-        background-color: coral;
-        /* colour of the line */
-        border: none;
-        /* no border */
-        width: 60%;
+#page-divide {
+    margin: 2em auto;
+    /* centred margin */
+    height: 4px;
+    /* thickness of the line */
+    background-color: coral;
+    /* colour of the line */
+    border: none;
+    /* no border */
+    width: 60%;
 }
+
 /*
 .container1 {
     display: flex;
@@ -490,6 +491,18 @@ main {
 /*********************************************************************************************************************************/
 footer {
     background-color: coral;
+
+    h3 {
+        text-transform: uppercase;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    p {
+        text-align: center;
+        color: whitesmoke;
+        margin: 2%;
+    }
 
 }
 
