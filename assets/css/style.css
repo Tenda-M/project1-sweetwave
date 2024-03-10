@@ -162,7 +162,7 @@ main {
 #cover-text {
     /*background-color: rgba(241, 107, 241, 0.7);*/
     /* Red, Green, Blue, Alpha these set the opacity so it is semi-transparent*/
-    font-size: 130;
+    font-size: 130px;
     position: absolute;
     bottom: 30px;
     width: 50%;
@@ -172,11 +172,9 @@ main {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 15px;
-
-    h4 {
-        font-size: 20px;
-    }
 }
+
+#cover-text>h4{font-size: 20px;}
 
 /*************about section **************/
 #about-section {
@@ -193,11 +191,10 @@ main {
     height: auto;
     padding: 5px;
 
-    p {
-        font-size: 20px;
-    }
 }
-
+#about-text >p{
+    font-size: 20px;
+}
 .about-image {
     display: flex;
     /*to put image in a row*/
@@ -226,7 +223,6 @@ main {
 .about-image h4 {
     padding: 1%;
 }
-
 /************************************************************************/
 /************Recipe page*************************************************/
 /************************************************************************/
@@ -266,45 +262,41 @@ main {
     text-align: center;
     margin: auto;
     width: 90%;
+}
 
-    ul {
+    .what-you-need> ul,li{
         list-style-type: none;
         /*remove unwanted pollet points*/
     }
-
-    h4 {
+   
+    .instructions> h4 {
         text-decoration-line: underline;
         font-size: 25px;
     }
 
-    h5 {
+   .instructions> h5 {
         font-weight: bolder;
         font-size: 15px;
     }
 
-    hr {
+    .instructions> hr {
         color: chocolate;
         border-top: 1px solid;
     }
-
-}
-
 .preparation {
-    text-align: left;
-
-    h4 {
-        text-align: center;
-    }
-
-    h5 {
-        font-weight: bolder;
-    }
-
-    p {
-        text-indent: 2%;
-    }
+    text-align: left;  
+}
+.preparation>h4 {
+    text-align: center;
 }
 
+.preparation>h5 {
+    font-weight: bolder;
+}
+
+.preparation>p {
+    text-indent: 2%;
+}
 
 /******** fruit scone Recipe divider *******/
 #page-divide {
@@ -318,15 +310,11 @@ main {
     /* no border */
     width: 60%;
 }
-
-*/
-
-/****************************************************************************/
+/*****************************************************************************/
 /************Contact Us page*************************************************/
-/****************************************************************************/
+
 /************Contact us top section ***************/
 #contact-us {
-
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
@@ -426,20 +414,20 @@ main {
 /*********************************************************************************************************************************/
 footer {
     background-color: coral;
-
-    h3 {
+}
+   footer> h3 {
         text-transform: uppercase;
         text-align: center;
         color: whitesmoke;
     }
 
-    p {
+    footer> p {
         text-align: center;
         color: whitesmoke;
         margin: 2%;
     }
 
-}
+
 
 #social-networks {
     text-align: right;
