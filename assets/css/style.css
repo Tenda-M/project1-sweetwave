@@ -284,9 +284,11 @@ main {
     text-align: center;
     margin: auto;
     width: 90%;
-    list-style-type: none;
-    /*remove unwanted pollet points*/
-
+    ul{
+        list-style-type: none;
+        /*remove unwanted pollet points*/
+    }
+   
     h4 {
         text-decoration-line: underline;
         font-size: 25px;
