@@ -198,25 +198,6 @@ main {
     }
 }
 
-/*
-.about-image{
-    display: flex; /*background: url("../images/Upsidedown-pinapple-cake.webp") no-repeat center center/cover;
-}
-
-.about-images{/* Three image containers (use 25% for four, and 50% for two, etc) 
-    flex:100%;
-    padding: 5px;
-    width: 100%;
-    height: 100%;
-  }************/
-/*#cover-text>h4 {
-    color: midnightblue;
-}
-.row-one{
-    flex-direction: column;
-    display:flex;
-}*/
-
 .about-image {
     display: flex;
     /*to put image in a row*/
@@ -245,6 +226,7 @@ main {
 .about-image h4 {
     padding: 1%;
 }
+
 /************************************************************************/
 /************Recipe page*************************************************/
 /************************************************************************/
@@ -284,11 +266,12 @@ main {
     text-align: center;
     margin: auto;
     width: 90%;
-    ul{
+
+    ul {
         list-style-type: none;
         /*remove unwanted pollet points*/
     }
-   
+
     h4 {
         text-decoration-line: underline;
         font-size: 25px;
@@ -336,58 +319,8 @@ main {
     width: 60%;
 }
 
-/*
-.container1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    padding-top: 5%;
-}
-
-.text2 {
-    font-size: 20px;
-    text-align: center;
-    text-size-adjust: initial;
-    padding-left: 20%;
-}
-
-/*** red velvel cake image****
-.image2 img {
-    max-width: 60%;
-    max-height: 80%;
-
-}
-
-.instructions-2 {
-    background-color: bisque;
-    text-align: center;
-    margin: auto;
-    width: 90%;
-
-    h4 {
-        text-decoration-line: underline;
-        font-size: 25px;
-    }
-
-    h5 {
-        font-weight: bolder;
-        font-size: 15px;
-    }
-
-    ul {
-        list-style-type: none;
-        /*remove unwanted pollet points
-
-    }
-
-    hr {
-        color: chocolate;
-        border-top: 1px solid;
-        width: 100%;
-    }
-}
 */
+
 /****************************************************************************/
 /************Contact Us page*************************************************/
 /****************************************************************************/
