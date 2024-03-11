@@ -28,7 +28,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: coral;
+    background-color:chocolate;
     /*note this in hexidecimal  */
     padding: 0 1rem;
     /* adding to padding both left and right*/
@@ -92,7 +92,7 @@ nav {
     position: absolute;
     /* setting the position value to absolute, Absolute positioning takes an element outside the normal
     flow of the page structure.  */
-    background-color: coral;
+    background-color: chocolate;
     /* changing the nav bar background color to white*/
     width: 100%;
     /* give it and 100% width so that he nav fits the full screen*/
@@ -304,7 +304,7 @@ main {
     /* centred margin */
     height: 4px;
     /* thickness of the line */
-    background-color: coral;
+    background-color: chocolate;
     /* colour of the line */
     border: none;
     /* no border */
@@ -380,7 +380,7 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: whitesmoke;
-    color: coral;
+    color:chocolate;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -413,7 +413,7 @@ main {
 /************** Footer **********************************************/
 /*********************************************************************************************************************************/
 footer {
-    background-color: coral;
+    background-color:chocolate;
 }
    footer> h3 {
         text-transform: uppercase;
