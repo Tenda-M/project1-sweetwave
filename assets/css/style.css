@@ -59,7 +59,7 @@ header a {
     /* take care of the default link color being applied by the browser */
     letter-spacing: 2px;
     /* to give breathing space between the letters*/
-    color: whitesmoke;
+    color: white;
 }
 
 /*Rules for menu id*/
@@ -82,7 +82,7 @@ header a {
 
 /* Rules for home usiing class active */
 .active {
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid white;
     /* underlining the home navigation bar*/
 }
 
@@ -124,7 +124,7 @@ nav {
 /*the nav toggle label size and color*/
 .nav-toggle-label {
     font-size: 2rem;
-    color: whitesmoke;
+    color: white;
     /*size*/
 }
 
@@ -379,7 +379,7 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: whitesmoke;
+    background-color: white;
     color:chocolate;
 }
 
@@ -418,13 +418,15 @@ footer {
    footer> h3 {
         text-transform: uppercase;
         text-align: center;
-        color: whitesmoke;
+        color:white;
     }
 
     footer> p {
         text-align: center;
-        color: whitesmoke;
+        color:white;
         margin: 2%;
+        font-weight: bolder;
+        font-size: 20px;
     }
 
 
@@ -445,12 +447,8 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: whitesmoke;
-
-
+    color: white;
 }
-
-
 
 /************ Media query: tablets and larger (768px and up)**************/
 @media screen and (min-width:768px) {
@@ -507,7 +505,7 @@ footer {
 @media screen and (min-width:992px) {
     #menu a:hover {
         /* hover pseudo class*/
-        border-bottom: 1px solid whitesmoke;
+        border-bottom: 1px solid white;
         /* hover will appear at the bottom with an underline with the chosen color*/
     }
 
