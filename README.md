@@ -39,4 +39,11 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 Happy coding!
 --------------------------------------------------------------
 ## Sweetwave
---
+
+Introducing Sweetwave: the place where chemistry meets your kitchen. Our website provides a variety of everyday recipes that are fantastic foundations for creating countless combinations and taste explorations. Sweetwave welcomes all bakers, regardless of experience level; we cover the fundamentals, essentials, and baking basics. Our recipes are simple to follow, and we offer artisan baking techniques, endless inspiration, and recipes for baking at home. 
+
+![Sweetwave Web site shown on a range of devices](responsive.png)
+
+## Demo
+
+A live demo can be found [here.](https://tenda-m.github.io/project1-sweetwave/)
