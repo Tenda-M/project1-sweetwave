@@ -141,13 +141,9 @@ main {
     display: flex;
     flex-direction: column;
 }
-
-/******************************************************************************************************************************/
-/*********************** Main page **********************************/
-/*****************************************************************************************************************************/
-
+/**********************************************************************/
 /************home page*************************************************/
-/************************************************************************/
+/**********************************************************************/
 #main-page{
     background-color: bisque;
 }
@@ -210,7 +206,7 @@ main {
 .about-image img {
     width: 95%;
     /* use 95% of the given space*/
-    height: 95%;
+    height: 90%;
 }
 
 .about-image div {
@@ -426,7 +422,6 @@ footer {
     footer> p {
         text-align: center;
         color:white;
-        margin: 2%;
         font-weight: bolder;
         font-size: 20px;
     }
@@ -440,8 +435,8 @@ footer {
     /*gives padding of the icons*/
     display: flex;
     /* places them side by side horizontally*/
-    justify-content:space-evenly;
-    /*gives and even spacing between icons*/
+    justify-content:center;
+    /*place icons to center*/
     list-style-type: none;
 }
 
@@ -450,6 +445,8 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: white;
+    margin: 0 5px;
+    /*space icons*/
 }
 
 /************ Media query: tablets and larger (768px and up)**************/
