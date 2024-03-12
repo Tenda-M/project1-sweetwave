@@ -308,7 +308,8 @@ main {
     width: 60%;
 }
 /*****************************************************************************/
-/************Contact Us page*************************************************/
+/************Contact Us page**************************************************/
+/*****************************************************************************/
 
 /************Contact us top section ***************/
 #contact-us {
@@ -358,7 +359,7 @@ main {
     padding: 0 5px;
 }
 
-#textform {
+#feedback {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -372,9 +373,9 @@ main {
 
 /*********Join button*************/
 .join-button {
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 2px;
-    padding: 15px 32px;
+    padding: 10px 20px;
     font-size: 100%;
     background-color: white;
     color:chocolate;
