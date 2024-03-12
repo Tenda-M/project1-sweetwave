@@ -148,7 +148,9 @@ main {
 
 /************home page*************************************************/
 /************************************************************************/
-
+#main-page{
+    background-color: bisque;
+}
 /* background cake section */
 #backgroundcake {
     height: 300px;
@@ -177,34 +179,34 @@ main {
 #cover-text>h4{font-size: 20px;}
 
 /*************about section **************/
-#about-section {
+.about-section {
     width: 100%;
-    position: absolute;
+    margin-top: 2%;
+    margin-bottom:3%;
 }
 
 #about-text {
-    background-color: bisque;
     text-align: center;
-    /*padding-top: 20px;
-    padding-left: 400px;
-    padding-right: 400px;*/
-    height: auto;
-    padding: 5px;
-
+    height: auto; 
 }
 #about-text >p{
     font-size: 20px;
+    padding-left:10px;
+    padding-right: 10px;
 }
+
+ /***** lower section with images****/  
 .about-image {
     display: flex;
     /*to put image in a row*/
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    background-color: bisque;
-    padding-bottom: 2%;
 }
 
+#image-and-text{
+    margin-bottom: 70px;
+}
 .about-image img {
     width: 95%;
     /* use 95% of the given space*/
@@ -216,12 +218,11 @@ main {
     /* this will not wrap for screen less than 200px*/
     /*each div will expand to rit the available space in it's row*/
     flex-basis: 200px;
-    flex-grow: 1;
-    padding-bottom: 3%;
+    flex-grow: 1;  
 }
 
 .about-image h4 {
-    padding: 1%;
+    padding: 2%;
 }
 /************************************************************************/
 /************Recipe page*************************************************/
@@ -414,6 +415,7 @@ main {
 /*********************************************************************************************************************************/
 footer {
     background-color:chocolate;
+    padding: 20px;
 }
    footer> h3 {
         text-transform: uppercase;
@@ -438,7 +440,7 @@ footer {
     /*gives padding of the icons*/
     display: flex;
     /* places them side by side horizontally*/
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     /*gives and even spacing between icons*/
     list-style-type: none;
 }
