@@ -47,3 +47,29 @@ Introducing Sweetwave: the place where chemistry meets your kitchen. Our website
 ## Demo
 
 A live demo can be found [here.](https://tenda-m.github.io/project1-sweetwave/)
+
+- - - 
+
+# Contents
+* [Languages Used](#languages-used)
+* [User Experience](#user-experience-ux)
+* [Design](#design)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+  * [Future Implementations](#future-implementations)
+  * [Color Scheme](#color-scheme)
+  * [Typography](#typography)
+  * [Icons](#icons)
+* [Deployment](#deployment)
+  * [Run locally](#run-locally)
+  * [Testing](#testing)
+* [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
+
+- - -
+
+# Languages Used
+* HTML5
+* CSS3
+
+- - - 
