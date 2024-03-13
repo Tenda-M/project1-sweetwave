@@ -136,7 +136,7 @@ The *hero* aims to make a good impression on the user by including an image and 
 
 The user will find brief details about the website's goal beneath the image. A quick backstory about how Sweetwave can relate to the user is provided as a means of encouraging user engagement.
 ![Sweetwave about](about.png)
-- - - 
+
 
 ### Inspiration image 
 
@@ -149,3 +149,30 @@ The user is shown pictures that serve as inspiration for the type of baking they
 The message in the footer invites users to click on the social icons, which makes it easier for them to stay in touch on social media. Links lead to user-friendly tab-based navigation. **This unique footer is consistently displayed on every page**.
 ![Sweetwave footer](footer.png)
 - - - 
+# **Recipe page**
+
+*Header*, *main section*, and *footer* are the three sections that make up the *Recipe* page. Both the [Footer](#footer) and the [Header](#header) are identical to the index page. 
+
+## Main Section
+
+### Recipe Section
+
+There are two sections on the **Recipe** page: the first contains the first recipe, and the second contains the second recipe. The two sections have the same formatting.
+
+Along with the recipe's name and date stamp, there's an eye-catching picture of the finished product. A subsection provides the user with further instructions on how to prepare the baking dish, along with a list of essential ingredients.
+![Sweetwave recipe page image](<recipe image.png>)
+![Sweetwave recipe page instructions](<recipe instructions.png>)
+- - - 
+
+# **Contact Us page**
+
+Three sections make up the *Contact us page*: the *header*, *main section*, and *footer*. The index page is the same as the [Header](#header) and the [Footer](#footer). 
+
+## Main Section
+
+The **Contact us** page has an easy-to-use contact form that asks for the user's name and email address and has a message section all its own. Before sending a message, the user must correctly complete all input fields.
+A button that says "Let's bake" is located at the bottom of the form. The page features a tasty background picture of bread. 
+![Sweetwave contact us form](<contact us.png>)
+
+
+- - -
