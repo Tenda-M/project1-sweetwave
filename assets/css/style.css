@@ -337,27 +337,15 @@ li {
 /*****************************************************************************/
 
 /************Contact us top section ***************/
-#contact-us {
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
-}
 
 /************Signup ***************/
 #signup {
     background-image: url("../images/bread_1.webp");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 20px 10% 20px 10%;
     flex-grow: 1;
-    /*background-color: lightsalmon;*/
-
-}
-
-/*****************Signup form********************/
-#signup {
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-    padding-bottom: 10%;
+   
 }
 
 #signup-form {
