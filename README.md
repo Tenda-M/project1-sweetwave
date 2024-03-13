@@ -100,7 +100,7 @@ A live demo can be found [here.](https://tenda-m.github.io/project1-sweetwave/)
 
 ## Wireframes:
 
-* Home Page:
+* Index Page:
 ![Home Page Wireframe](Home.png)
 
 * Recipe Page:
@@ -110,3 +110,42 @@ A live demo can be found [here.](https://tenda-m.github.io/project1-sweetwave/)
 ![Contact Us Page Wireframe](<Contact Us.png>)
 
 - - -
+## Features
+
+There are three pages on the website:: the index page, the recepie page, and the conctact us page. Each page includes  a **navigation bar**, and a **footer**.
+
+# **Index page**
+
+The **Home** page is divided into 3 sections, *header*, *main section* and *footer*.
+
+## Header
+The *header* is a distinctive element that is consistently visible on all pages, with a *navigation bar* set against a chocolate background color and white text.
+![Sweetwave Header](header.png)
+- - - 
+
+## Main Section
+
+The *main section* has three sections that consist of  the *hero section* ,*about section* and the *inspiration image section **.
+
+### Hero Section
+
+The *hero* aims to make a good impression on the user by including an image and a short paragraph introducing the website.
+![Sweetwave Hero](hero.png)
+
+### About Section
+
+The user will find brief details about the website's goal beneath the image. A quick backstory about how Sweetwave can relate to the user is provided as a means of encouraging user engagement.
+![Sweetwave about](about.png)
+- - - 
+
+### Inspiration image 
+
+The user is shown pictures that serve as inspiration for the type of baking they can accomplish near the end of the index page.
+![Sweetwave inspiration images](<inspiration images.png>)
+- - - 
+
+## Footer 
+
+The message in the footer invites users to click on the social icons, which makes it easier for them to stay in touch on social media. Links lead to user-friendly tab-based navigation. **This unique footer is consistently displayed on every page**.
+![Sweetwave footer](footer.png)
+- - - 
