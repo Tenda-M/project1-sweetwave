@@ -269,7 +269,10 @@ main {
     padding-right: 2%;
     padding-bottom: 2%;
 }
-
+.what-you-need>ul>
+li {
+    padding-left:0.5em
+}
 
 .what-you-need>ul,
 li {
@@ -530,3 +533,4 @@ footer>p {
         max-width: 100%;
         max-height: 80%;
     }
+}
