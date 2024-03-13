@@ -73,3 +73,40 @@ A live demo can be found [here.](https://tenda-m.github.io/project1-sweetwave/)
 * CSS3
 
 - - - 
+# User Experience (UX)
+
+## The ideal users for this community is:
+ * Individuals passionate about baking. 
+ * Based anywhere in the world online.
+ * Individual looking to expand their knowlage for baking.
+ * Individual looking to share baking feedback.
+
+ ## User stories
+
+### First Time Visitor Goals
+* As a new visitor, I anticipate that I will be able to navigate the website with ease and quickly grasp its primary goal. 
+ * I can effectively locate what I'm looking for.
+ * Recognize the advantages the website offers.
+ * Use the links to social media to stay informed about new recipe followers and comments.
+
+### As a Returning Visitor
+ * I would like to test out the recently added recipes. 
+ *I would like to fill out a form in case I have any questions.
+
+### As a Frequent User 
+ * I would like to stay current on new recipes.
+
+ # Design
+
+## Wireframes:
+
+* Home Page:
+![Home Page Wireframe](Home.png)
+
+* Recipe Page:
+![Recipe Page Wireframe](Recipes.png)
+
+* Contact Us Page:
+![Contact Us Page Wireframe](<Contact Us.png>)
+
+- - -
