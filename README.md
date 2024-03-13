@@ -181,3 +181,64 @@ The following actions were taken in order to deploy the page on GitHub Pages fro
 5. Paste the link from step 3 into the terminal, type "git clone," and hit Enter.
 
 - - -
+
+# Testing 
+The website is made to function well, which makes it simple for users to accomplish their objectives. Throughout the development process, any bugs were found and fixed using the Chrome development tools. Performance testing was carried out using manual techniques.
+
+1. Every button on the website functions as it should when clicked.
+
+2. All other site links, including social media links, open in new tabs.
+
+## Functionality
+
+1. To check for syntax errors on each page of the project, the W3C Markup Validator and W3C CSS Validator Services were utilized.
+*********************enter images *******************
+  * Index Page
+![Index Page HTML]()
+  * Recipe Page
+![Recipe HTML]()
+  * Contact Us Page
+![Contact Us HTML]()
+  * CSS Page
+![CSS Page]()
+
+2. The Sweetwave website's performance, accessibility, best practices, and SEO are tested using Lighthouse, a feature of the Chrome Developer Tools.
+*********************enter images *******************
+  * Index Page
+![Index Page HTML]()
+  * Recipe Page
+![Recipe HTML]()
+  * Contact Us Page
+![Contact Us HTML]()
+
+3. Before submitting, the Contact Us form needs all fields must be filled out.
+  * Contact Us Form
+![Contact Us Form]()
+
+4. Upon completing the contact us form, the user is taken to an alternate website.
+  * Submitted page.
+![Contact Us Form]()
+
+## Usability
+Testing was done on the navigation. Every webpage has a consistent and easily readable menu. The website's resources are easily found by users.
+
+## Compatibility 
+The website is set up to work properly across a range of browsers and screen sizes. Testing was done on Chrome, Firefox, Safari, and Edge to ensure compatibility.
+
+## Responsiveness
+Chrome DevTools was used to test responsiveness on a variety of screens, including the 5k iMac Pro (5120x2880px) and the iPhone 5 (320px wide). Media queries were used to increase responsiveness.
+
+- - - 
+
+# Credits
+
+All images on the website belong to me with the exception of the image on the contact us page taken from [nice page](https://nicepage.com/), under a free license agreement.
+
+All recipes on the website are from [bbcgoodfood](https://www.bbcgoodfood.com)
+
+All content was written by me.
+
+- - -
+
+# Acknowledgements
+* My Mentor Excellence Ilesanmi for continuous helpful and constructive feedback.
