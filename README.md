@@ -3,7 +3,7 @@
 
 Introducing Sweetwave: the place where chemistry meets your kitchen. Our website provides a variety of everyday recipes that are fantastic foundations for creating countless combinations and taste explorations. Sweetwave welcomes all bakers, regardless of experience level; we cover the fundamentals, essentials, and baking basics. Our recipes are simple to follow, and we offer artisan baking techniques, endless inspiration, and recipes for baking at home. 
 
-![Sweetwave Web site shown on a range of devices](responsive.png)
+![Sweetwave Web site shown on a range of devices](/readme/media/responsive.png)
 
 ## Demo
 
@@ -61,13 +61,13 @@ A live demo can be found [here.](https://tenda-m.github.io/project1-sweetwave/)
 ## Wireframes:
 
 * Index Page:
-![Home Page Wireframe](Home.png)
+![Home Page Wireframe](readme/wireframes/home.png)
 
 * Recipe Page:
-![Recipe Page Wireframe](Recipes.png)
+![Recipe Page Wireframe](readme/wireframes/recipes.png)
 
 * Contact Us Page:
-![Contact Us Page Wireframe](<Contact Us.png>)
+![Contact Us Page Wireframe](<readme/wireframes/contact-us.png>)
 
 - - -
 ## Features
@@ -80,7 +80,7 @@ The **Home** page is divided into 3 sections, *header*, *main section* and *foot
 
 ## Header
 The *header* is a distinctive element that is consistently visible on all pages, with a *navigation bar* set against a chocolate background color and white text.
-![Sweetwave Header](header.png)
+![Sweetwave Header](readme/media/header.png)
 - - - 
 
 ## Main Section
@@ -90,24 +90,24 @@ The *main section* has three sections that consist of  the *hero section* ,*abou
 ### Hero Section
 
 The *hero* aims to make a good impression on the user by including an image and a short paragraph introducing the website.
-![Sweetwave Hero](hero.png)
+![Sweetwave Hero](readme/media/hero.png)
 
 ### About Section
 
 The user will find brief details about the website's goal beneath the image. A quick backstory about how Sweetwave can relate to the user is provided as a means of encouraging user engagement.
-![Sweetwave about](about.png)
+![Sweetwave about](readme/media/about.png)
 
 
 ### Inspiration image 
 
 The user is shown pictures that serve as inspiration for the type of baking they can accomplish near the end of the index page.
-![Sweetwave inspiration images](<inspiration images.png>)
+![Sweetwave inspiration images](<readme/media/inspiration-images.png>)
 - - - 
 
 ## Footer 
 
 The message in the footer invites users to click on the social icons, which makes it easier for them to stay in touch on social media. Links lead to user-friendly tab-based navigation. **This unique footer is consistently displayed on every page**.
-![Sweetwave footer](footer.png)
+![Sweetwave footer](readme/media/footer.png)
 - - - 
 # **Recipe page**
 
@@ -120,8 +120,8 @@ The message in the footer invites users to click on the social icons, which make
 There are two sections on the **Recipe** page: the first contains the first recipe, and the second contains the second recipe. The two sections have the same formatting.
 
 Along with the recipe's name and date stamp, there's an eye-catching picture of the finished product. A subsection provides the user with further instructions on how to prepare the baking dish, along with a list of essential ingredients.
-![Sweetwave recipe page image](<recipe image.png>)
-![Sweetwave recipe page instructions](<recipe instructions.png>)
+![Sweetwave recipe page image](<readme/media/recipe-image.png>)
+![Sweetwave recipe page instructions](<readme/media/recipe-instructions.png>)
 - - - 
 
 # **Contact Us page**
@@ -132,13 +132,13 @@ Three sections make up the *Contact us page*: the *header*, *main section*, and 
 
 The **Contact us** page has an easy-to-use contact form that asks for the user's name and email address and has a message section all its own. Before sending a message, the user must correctly complete all input fields.
 A button that says "Let's bake" is located at the bottom of the form. The page features a tasty background picture of bread. 
-![Sweetwave contact us form](<contact us.png>)
+![Sweetwave contact us form](<readme/media/contact-us.png>)
 - - -
 
 # Color Scheme
 
 The choice of the chocolate brown color scheme was made to add a sleek, sophisticated, and modern look without lessening the image's impact.
-![Sweetwave Colour Palette](<color scheme.png>)
+![Sweetwave Colour Palette](<readme/media/color-scheme.png>)
 - - - 
 
 # Typography
