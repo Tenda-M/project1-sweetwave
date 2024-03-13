@@ -1,43 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
---------------------------------------------------------------
 ## Sweetwave
 
 Introducing Sweetwave: the place where chemistry meets your kitchen. Our website provides a variety of everyday recipes that are fantastic foundations for creating countless combinations and taste explorations. Sweetwave welcomes all bakers, regardless of experience level; we cover the fundamentals, essentials, and baking basics. Our recipes are simple to follow, and we offer artisan baking techniques, endless inspiration, and recipes for baking at home. 
@@ -173,6 +134,50 @@ Three sections make up the *Contact us page*: the *header*, *main section*, and 
 The **Contact us** page has an easy-to-use contact form that asks for the user's name and email address and has a message section all its own. Before sending a message, the user must correctly complete all input fields.
 A button that says "Let's bake" is located at the bottom of the form. The page features a tasty background picture of bread. 
 ![Sweetwave contact us form](<contact us.png>)
+- - -
 
+# Color Scheme
+
+The choice of the chocolate brown color scheme was made to add a sleek, sophisticated, and modern look without lessening the image's impact.
+![Sweetwave Colour Palette](<color scheme.png>)
+- - - 
+
+# Typography
+
+The website maintains a consistent and unified typographic style by using a single font, **san serif** from **Google Fonts**.
+- - - 
+
+# Icons
+The website's icons are available under a free license and were sourced from [Font Awesome](https://fontawesome.com/icons).
+
+- - - 
+
+# Deployment
+
+The website is hosted directly from the master branch on GitHub Pages. Every time a new commit is made to the main branch, the deployed site is automatically updated. The landing page must have the name index.html in order for GitHub Pages to deploy it correctly.
+
+The following actions were taken in order to deploy the page on GitHub Pages from its [GitHub repository](https://github.com/Tenda-M/project1-sweetwave): 
+1. Sign up or log in to GitHub.
+2. Launch the repository for the project.
+3. Click the top menu and choose **Settings**.
+4. In the navigation panel on the left, select "Pages."
+5. Select the branch to be deployed (Main for more recent repositories, Master for older ones) in the "Source" section.
+6. Choose the deployment folder, usually located at "/root."
+7. Press "Save" and watch as the deployment procedure is finished.
+8. The "Source" section will be beneath your URL.
+
+## Run locally
+**Fork:**
+1. Sign up or log in to GitHub.
+2. Go to https://github.com/Tenda-M/project1-sweetwave to access the project [repository].
+3. Press the Fork icon located in the upper right corner.
+
+**Clone:**
+1. Sign up or log in to GitHub.
+2. Go to https://github.com/Tenda-M/project1-sweetwave1. Sign up or log in to GitHub.
+2. Go to https://github.com/Tenda-M/project1-sweetwave and open the project [repository].
+3. Select your preferred cloning method (SSH, HTTPS, or GitHub CLI), click the "Code" button, and copy the provided link.
+4. Locate the cloned directory by opening the terminal of your favorite code editor and going to the desired location.
+5. Paste the link from step 3 into the terminal, type "git clone," and hit Enter.
 
 - - -
