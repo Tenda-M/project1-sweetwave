@@ -118,7 +118,6 @@ nav {
 #nav-toggle {
     display: none;
     /* this is to hide the check box as we do not need it seen*/
-
 }
 
 /*the nav toggle label size and color*/
@@ -128,7 +127,6 @@ nav {
     /*size*/
 }
 
-/************************************************************************/
 /***************** Manin Content *****************/
 main {
     /*background-color: bisque;
@@ -143,7 +141,7 @@ main {
 }
 
 /**********************************************************************/
-/************home page*************************************************/
+/********************home page*****************************************/
 /**********************************************************************/
 #main-page {
     background-color: bisque;
@@ -160,8 +158,6 @@ main {
 
 /* cover text - overlaying on top of the image*/
 #cover-text {
-    /*background-color: rgba(241, 107, 241, 0.7);*/
-    /* Red, Green, Blue, Alpha these set the opacity so it is semi-transparent*/
     font-size: 130px;
     position: absolute;
     bottom: 30px;
@@ -232,9 +228,8 @@ main {
 /************************************************************************/
 
 /******red velvet Recipe*******/
-.recipe1 {
+.recipes {
     background-color: lavenderblush;
-    /*background-image: url("../images/plain-white-powder-texture-background.webp");*/
     background-size: cover;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -248,22 +243,23 @@ main {
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
+    padding-bottom: 2%;
 }
 
-/*** red velvel cake Text****/
+/*** red velvet cake Text****/
 .side-bake-text {
     font-size: 20px;
     text-align: center;
     text-size-adjust: initial;
 }
 
-/*** red velvel cake image****/
-.recipe-image1 img {
+/*** red velvet cake image****/
+.recipe-images img {
     max-width: 60%;
     max-height: 80%;
 }
 
-/*** red velvel cake instructions****/
+/*** red velvet cake instructions****/
 .instructions {
     background-color: bisque;
     text-align: left;
@@ -277,21 +273,19 @@ main {
 
 .what-you-need>ul,
 li {
-    /*text-indent: 2%;
-    list-style-type: none;
-    /*remove unwanted pollet points*/
-    padding-left: 2%;
+    padding-left: 3%;
 }
 
 .what-you-need {
     margin-bottom: 2%;
 }
 
-.what-you-need h4 {
+.what-you-need h3 {
     text-decoration-line: underline;
     font-size: 20px;
-    text-size-adjust: initial;
     text-align: center;
+    text-transform:none;
+    
 }
 
 .instructions h5 {
@@ -308,12 +302,13 @@ li {
     text-align: left;
 }
 
-.preparation>h4 {
+.preparation>h3 {
     text-decoration-line: underline;
     font-size: 20px;
-    text-size-adjust: initial;
     text-align: center;
-
+    text-transform:none;
+    padding-top:1%;
+    padding-bottom: 1%;
 }
 
 .preparation>h5 {
@@ -326,14 +321,14 @@ li {
 
 /******** fruit scone Recipe divider *******/
 #page-divide {
-    margin: 2em auto;
+    margin: auto;
     /* centred margin */
-    height: 4px;
-    /* thickness of the line */
     background-color: chocolate;
     /* colour of the line */
+    height: 4px;
+    /* thickness of the line */
     border: none;
-    /* no border */
+    margin-bottom: 4%;
     width: 60%;
 }
 
@@ -541,3 +536,9 @@ footer>p {
     }
 
 }
+/* Media query: tablets and lower (768px and down) */
+@media screen and (max-width: 768px) {
+    .recipe-images img {
+        max-width: 100%;
+        max-height: 80%;
+    }
