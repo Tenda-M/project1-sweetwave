@@ -230,6 +230,7 @@ Chrome DevTools was used to test responsiveness on a variety of screens, includi
 - - - 
 
 # Credits
+I used the Love Lunning project as an example when creating the navigation bar and footer.
 
 All images on the website belong to me with the exception of the image on the contact us page taken from [nice page](https://nicepage.com/), under a free license agreement.
 
