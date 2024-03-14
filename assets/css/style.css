@@ -48,10 +48,6 @@ header {
     /* to make sure the line vertically*/
 }
 
-/*.image {
-	background-image: url(https://img.icons8.com/wired/64/000000/coffee.png), url(https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-	height: 250px;
-}*/
 header a {
     text-decoration: none;
     /* to remove any text decoration*/
@@ -322,7 +318,7 @@ li {
     text-indent: 2%;
 }
 
-/******** fruit scone Recipe divider *******/
+/******** Recipe divider line *******/
 #page-divide {
     margin: auto;
     /* centred margin */
@@ -339,11 +335,10 @@ li {
 /************Contact Us page**************************************************/
 /*****************************************************************************/
 
-/************Contact us top section ***************/
 
 /************Signup ***************/
 #signup {
-    background-image: url("../images/bread_1.webp");
+    background-image: url("../images/bread.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 20px 10%;
@@ -423,9 +418,9 @@ li {
     }
 }
 
-/*********************************************************************************************************************************/
+/********************************************************************/
 /************** Footer **********************************************/
-/*********************************************************************************************************************************/
+/********************************************************************/
 footer {
     background-color: chocolate;
     padding: 20px;
@@ -487,7 +482,7 @@ footer>p {
 
     #menu {
         display: flex;
-        /*.  */
+        
 
     }
 
