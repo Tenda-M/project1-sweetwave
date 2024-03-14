@@ -191,32 +191,32 @@ The website is made to function well, which makes it simple for users to accompl
 ## Functionality
 
 1. To check for syntax errors on each page of the project, the W3C Markup Validator and W3C CSS Validator Services were utilized.
-*********************enter images *******************
+
   * Index Page
-![Index Page HTML]()
+![Index Page HTML](readme/test/index-checker.png)
   * Recipe Page
-![Recipe HTML]()
+![Recipe HTML](readme/test/recipes-checker.png)
   * Contact Us Page
-![Contact Us HTML]()
+![Contact Us HTML](readme/test/contact-us-checker.png)
   * CSS Page
-![CSS Page]()
+![CSS Page](readme/test/css-checker.png)
 
 2. The Sweetwave website's performance, accessibility, best practices, and SEO are tested using Lighthouse, a feature of the Chrome Developer Tools.
-*********************enter images *******************
+
   * Index Page
-![Index Page HTML]()
+![Index Page HTML](readme/test/index-lighthouse.png)
   * Recipe Page
-![Recipe HTML]()
+![Recipe HTML](readme/test/recipes-lighthouse.png)
   * Contact Us Page
-![Contact Us HTML]()
+![Contact Us HTML](readme/test/contact-us-lighthouse.png)
 
 3. Before submitting, the Contact Us form needs all fields must be filled out.
   * Contact Us Form
-![Contact Us Form]()
+![Contact Us Form](readme/test/sign-up-form.png)
 
 4. Upon completing the contact us form, the user is taken to an alternate website.
   * Submitted page.
-![Contact Us Form]()
+![Contact Us Form](readme/test/submitted-page.png)
 
 ## Usability
 Testing was done on the navigation. Every webpage has a consistent and easily readable menu. The website's resources are easily found by users.
