@@ -1,112 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Meta tags for search engines -->
-    <meta name="description" content="SweetWave. A club for all learning to bake around the world">
-    <meta name="keywords" content=" SweetWave, bake, baking, cakes, cupcake, muffins">
-    <!--Wesite Title-->
-    <title>SweetWave</title>
-    <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <!--stylesheets-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-    <!--Header-->
-    <header>
-        <a href="index.html"> <!-- this will allow user to click it to the back to the home page-->
-            <h1 id="logo">SweetWave</h1> <!--h1 has id logo-->
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Meta tags for search engines -->
+      <meta name="description" content="SweetWave. A club for all learning to bake around the world">
+      <meta name="keywords" content=" SweetWave, bake, baking, cakes, cupcake, muffins">
+      <!--Wesite Title-->
+      <title>SweetWave</title>
+      <!--favicon-->
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+      <!--stylesheets-->
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body>
+      <!--Header-->
+      <header>
+         <a href="index.html">
+            <!-- this will allow user to click it to the back to the home page-->
+            <h1 id="logo">SweetWave</h1>
+            <!--h1 has id logo-->
+         </a>
+         <input type="checkbox" id="nav-toggle" name="nav-toggle">
+         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="recipes.html">Recipes</a></li>
-                <li><a href="contact-us.html" class="active">Contact Us</a></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="recipes.html">Recipes</a></li>
+               <li><a href="contact-us.html" class="active">Contact Us</a></li>
             </ul>
-        </nav>
-    </header>
-
-    <!--Main Content-->
-    <main>
-
-        <!-- Signup form -->
-        <section id="signup">
+         </nav>
+      </header>
+      <!--Main Content-->
+      <main>
+         <!-- Signup form -->
+         <section id="signup">
             <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
-                <!--<section id="" contact-us"> </section>-->
-                    <h2>Contact Us</h2>
-                    <div id="contact-form">
-                        <p>
-                            Do you have any questions or feedback on one of our recipes ?. We would be happy to hear more from
-                            you.
-                            For monthly recipes inspiration and baking tips don't forget to signup to our baking clubs and
-                            follow us on our social media page.
-                        </p>
-                    </div>
-                
-            <!--</form> -->
-            <h2> Never want to miss out?, lets get you signedup!</h2>
-
-            <!--adding the inputs of the form-->
-            <label for="first_name">First Name</label>
-            <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Jane" required>
-            <br>
-            <label for="last_name">Last Name</label>
-            <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Doe" required>
-            <br>
-            <label for="email_address">Email Address</label>
-            <input type="email" name="email_address" id="email_address" class="text-input" placeholder="janedoe@gmail.com" required>
-            <br>
-            <label for="feedback">Feedback</label>
-            <!--Adding text input box-->
-            <textarea id="feedback" name="textform" rows="4" cols="40"  placeholder="leave your feedback and questions here..." required></textarea>
-            <br>
-            <!--Adding the submit button-->
-            <button type="submit" class="join-button">Let's bake!</button>
-        </form>
-        </section>
-    </main>
-
-    <!--footer-->
-    <footer>
-        <h3>Follow us on our social media and get in touch!</h3>
-        <ul id="social-networks">
+               <!--<section id="" contact-us"> </section>-->
+               <h2>Contact Us</h2>
+               <div id="contact-form">
+                  <p>
+                     Do you have any questions or feedback on one of our recipes ?. We would be happy to hear more from
+                     you.
+                     For monthly recipes inspiration and baking tips don't forget to signup to our baking clubs and
+                     follow us on our social media page.
+                  </p>
+               </div>
+               <!--</form> -->
+               <h2> Never want to miss out?, lets get you signedup!</h2>
+               <!--adding the inputs of the form-->
+               <label for="first_name">First Name</label>
+               <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Jane" required>
+               <br>
+               <label for="last_name">Last Name</label>
+               <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Doe" required>
+               <br>
+               <label for="email_address">Email Address</label>
+               <input type="email" name="email_address" id="email_address" class="text-input" placeholder="janedoe@gmail.com" required>
+               <br>
+               <label for="feedback">Feedback</label>
+               <!--Adding text input box-->
+               <textarea id="feedback" name="textform" rows="4" cols="40"  placeholder="leave your feedback and questions here..." required></textarea>
+               <br>
+               <!--Adding the submit button-->
+               <button type="submit" class="join-button">Let's bake!</button>
+            </form>
+         </section>
+      </main>
+      <!--footer-->
+      <footer>
+         <h3>Follow us on our social media and get in touch!</h3>
+         <ul id="social-networks">
             <li>
-                <a href="https://www.Facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
+               <a href="https://www.Facebook.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our Facebook page (opens in new tab)">
+               <i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our instagram page (opens in new tab)">
-                    <i class="fa-brands fa-square-instagram"></i></a>
+               <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our instagram page (opens in new tab)">
+               <i class="fa-brands fa-square-instagram"></i></a>
             </li>
             <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our twitter page (opens in new tab)">
-                    <i class="fa-brands fa-x-twitter"></i></a>
+               <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our twitter page (opens in new tab)">
+               <i class="fa-brands fa-x-twitter"></i></a>
             </li>
             <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our youtube page (opens in new tab)">
-                    <i class="fa-brands fa-youtube"></i></a>
+               <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our youtube page (opens in new tab)">
+               <i class="fa-brands fa-youtube"></i></a>
             </li>
-        </ul>
-        <p>   
-        Developed By Tatenda Mudehwe | Code Institute's Portfolio Project 1 - 2024
-        </p>
-    </footer>
-
-    <!--Font Awesome kit script-->
-    <script src="https://kit.fontawesome.com/4892267aa3.js" crossorigin="anonymous"></script>
-</body>
-
+         </ul>
+         <p>   
+            Developed By Tatenda Mudehwe | Code Institute's Portfolio Project 1 - 2024
+         </p>
+      </footer>
+      <!--Font Awesome kit script-->
+      <script src="https://kit.fontawesome.com/4892267aa3.js" crossorigin="anonymous"></script>
+   </body>
 </html>
