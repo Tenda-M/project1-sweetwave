@@ -233,27 +233,28 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	text-align: center;
+	text-align:center;
 	justify-content: center;
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-bottom: 2%;
+	background-color: aqua;
 }
 
-/*** red velvet cake Text****/
+/*** side bake image Text****/
 .side-bake-text {
 	font-size: 20px;
 	text-align: center;
 	text-size-adjust: initial;
 }
 
-/*** red velvet cake image****/
+/*** bake image****/
 .recipe-images img {
-	max-width: 60%;
-	max-height: 80%;
+	max-width: 50%;
+	max-height: 50%;
 }
 
-/*** red velvet cake instructions****/
+/*** baking instructions****/
 .instructions {
 	background-color: bisque;
 	text-align: left;
