@@ -3,219 +3,218 @@
 
 /* style Rule - Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 /* Setting General Styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic Project Styles*/
-    color: #3a3a3a;
-    font-family: 'lato', sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	/* Generic Project Styles*/
+	color: #3a3a3a;
+	font-family: 'lato', sans-serif;
 }
 
 /* front for h1*/
 h1,
 h2,
 h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
 }
 
 /* Header */
 header {
-    background-color: chocolate;
-    /*note this in hexidecimal  */
-    padding: 0 1rem;
-    /* adding to padding both left and right*/
-    position: fixed;
-    /* fixing position so that scroll bar doesnt affect the header*/
-    z-index: 99;
-    /* to make sure it's over laying any other i tems that might have z-index*/
-    width: 100%;
-    /* give it and 100% width so that he header fits the full screen*/
-    box-shadow: 0 2px 2px #3a3a3a;
-    /*to give nice looks*/
-    display: flex;
-    /*display of flex to the header.That should make them show in a row*/
-    justify-content: space-between;
-    /* to add space between them */
-    align-items: baseline;
-    /* to make sure the line vertically*/
+	background-color: chocolate;
+	/*note this in hexidecimal  */
+	padding: 0 1rem;
+	/* adding to padding both left and right*/
+	position: fixed;
+	/* fixing position so that scroll bar doesnt affect the header*/
+	z-index: 99;
+	/* to make sure it's over laying any other i tems that might have z-index*/
+	width: 100%;
+	/* give it and 100% width so that he header fits the full screen*/
+	box-shadow: 0 2px 2px #3a3a3a;
+	/*to give nice looks*/
+	display: flex;
+	/*display of flex to the header.That should make them show in a row*/
+	justify-content: space-between;
+	/* to add space between them */
+	align-items: baseline;
+	/* to make sure the line vertically*/
 }
 
 header a {
-    text-decoration: none;
-    /* to remove any text decoration*/
-    color: inherit;
-    /* take care of the default link color being applied by the browser */
-    letter-spacing: 2px;
-    /* to give breathing space between the letters*/
-    color: white;
+	text-decoration: none;
+	/* to remove any text decoration*/
+	color: inherit;
+	/* take care of the default link color being applied by the browser */
+	letter-spacing: 2px;
+	/* to give breathing space between the letters*/
+	color: white;
 }
 
 /*Rules for menu id*/
 #menu {
-    font-size: 110%;
-    /* text slightly larger than 110% */
-    letter-spacing: 4px;
-    /* letters space by 4px  */
-    list-style-type: none;
-    /* remove pullet points on the list */
-
+	font-size: 110%;
+	/* text slightly larger than 110% */
+	letter-spacing: 4px;
+	/* letters space by 4px  */
+	list-style-type: none;
+	/* remove pullet points on the list */
 }
 
 /* Rules for list in menu*/
 #menu>li {
-    margin-bottom: 1em;
-    /* increase spacing by the bottom marging*/
-
+	margin-bottom: 1em;
+	/* increase spacing by the bottom marging*/
 }
 
 /* Rules for home usiing class active */
 .active {
-    border-bottom: 1px solid white;
-    /* underlining the home navigation bar*/
+	border-bottom: 1px solid white;
+	/* underlining the home navigation bar*/
 }
 
 
 /* navigation bar styles with dropdown toggle on mobile divices*/
 nav {
-    position: absolute;
-    /* setting the position value to absolute, Absolute positioning takes an element outside the normal
+	position: absolute;
+	/* setting the position value to absolute, Absolute positioning takes an element outside the normal
     flow of the page structure.  */
-    background-color: chocolate;
-    /* changing the nav bar background color to white*/
-    width: 100%;
-    /* give it and 100% width so that he nav fits the full screen*/
-    left: 0;
-    /* to have the nav align directly aganis the left of the screen */
-    padding: 0 1rem;
-    /* adding to padding bothleft and right*/
-    box-shadow: 0 2px 2px #3a3a3a;
-    /*to give nice looks*/
-    display: none;
-    /*so the nav bar items are hidden until the user clicks to open them*/
-    top: 100%;
-    /*this tells the navigation element that the top of the element should start at the bottom of its parent. this will allow the nav bar to appear under the menu*/
+	background-color: chocolate;
+	/* changing the nav bar background color to white*/
+	width: 100%;
+	/* give it and 100% width so that he nav fits the full screen*/
+	left: 0;
+	/* to have the nav align directly aganis the left of the screen */
+	padding: 0 1rem;
+	/* adding to padding bothleft and right*/
+	box-shadow: 0 2px 2px #3a3a3a;
+	/*to give nice looks*/
+	display: none;
+	/*so the nav bar items are hidden until the user clicks to open them*/
+	top: 100%;
+	/*this tells the navigation element that the top of the element should start at the bottom of its parent. this will allow the nav bar to appear under the menu*/
 }
 
 /*The nav toggle  */
 #nav-toggle:checked~nav {
-    /*When this is checked, we want the sibling nav element to display.So for that, we need the tilde to indicate that we want to target the adjoining nav element.*/
-    display: block;
+	/*When this is checked, we want the sibling nav element to display.So for that, we need the tilde to indicate that we want to target the adjoining nav element.*/
+	display: block;
 }
 
 /*. */
 #nav-toggle {
-    display: none;
-    /* this is to hide the check box as we do not need it seen*/
+	display: none;
+	/* this is to hide the check box as we do not need it seen*/
 }
 
 /*the nav toggle label size and color*/
 .nav-toggle-label {
-    font-size: 2rem;
-    color: white;
-    /*size*/
+	font-size: 2rem;
+	color: white;
+	/*size*/
 }
 
 /***************** Manin Content *****************/
 main {
-    /*background-color: bisque;
+	/*background-color: bisque;
      /* Make nain element to take up extra-space and should not shrink when ther is space left in it. Any surplus space to push footer down*/
-    flex: 1 0 auto;
-    margin-top: 47px;
-    /*to our main element to push the content down, that got covered by the header*/
+	flex: 1 0 auto;
+	margin-top: 47px;
+	/*to our main element to push the content down, that got covered by the header*/
 
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
+	/* Enable flex properties for child elements */
+	display: flex;
+	flex-direction: column;
 }
 
 /**********************************************************************/
 /********************home page*****************************************/
 /**********************************************************************/
 #main-page {
-    background-color: bisque;
+	background-color: bisque;
 }
 
 /* background cake section */
 #backgroundcake {
-    height: 300px;
-    width: 100%;
-    background: url("../images/berry-muffin.webp") no-repeat center center/cover;
-    /*use a URL with a relative path so it shows correctly on our deployed site as well.*/
-    position: relative;
+	height: 300px;
+	width: 100%;
+	background: url("../images/berry-muffin.webp") no-repeat center center/cover;
+	/*use a URL with a relative path so it shows correctly on our deployed site as well.*/
+	position: relative;
 }
 
 /* cover text - overlaying on top of the image*/
 #cover-text {
-    font-size: 130px;
-    position: absolute;
-    bottom: 30px;
-    width: 50%;
-    min-height: 100px;
-    padding-top: 20px;
-    padding-left: 10px;
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 15px;
+	font-size: 130px;
+	position: absolute;
+	bottom: 30px;
+	width: 50%;
+	min-height: 100px;
+	padding-top: 20px;
+	padding-left: 10px;
+	color: #ffffff;
+	background-color: rgba(60, 60, 60, 0.6);
+	padding: 15px;
 }
 
 #cover-text>h4 {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 /*************about section **************/
 .about-section {
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 3%;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 3%;
 }
 
 #about-text {
-    text-align: center;
-    height: auto;
+	text-align: center;
+	height: auto;
 }
 
 #about-text>p {
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /***** lower section with images****/
 .about-image {
-    display: flex;
-    /*to put image in a row*/
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-}
- .about-image div{
-    margin-bottom: 50px;
- }
-
-.about-image img {
-    width: 95%;
-    /* use 95% of the given space*/
-    height: 90%;
+	display: flex;
+	/*to put image in a row*/
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
 }
 
 .about-image div {
-    text-align: center;
-    /* this will not wrap for screen less than 200px*/
-    /*each div will expand to rit the available space in it's row*/
-    flex-basis: 200px;
-    flex-grow: 1;
+	margin-bottom: 50px;
+}
+
+.about-image img {
+	width: 95%;
+	/* use 95% of the given space*/
+	height: 90%;
+}
+
+.about-image div {
+	text-align: center;
+	/* this will not wrap for screen less than 200px*/
+	/*each div will expand to rit the available space in it's row*/
+	flex-basis: 200px;
+	flex-grow: 1;
 }
 
 .about-image h4 {
-    padding: 2%;
+	padding: 2%;
 }
 
 /************************************************************************/
@@ -224,110 +223,110 @@ main {
 
 /******red velvet Recipe*******/
 .recipes {
-    background-color: lavenderblush;
-    background-size: cover;
-    padding-top: 2%;
-    padding-bottom: 2%;
+	background-color: lavenderblush;
+	background-size: cover;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 2%;
 }
 
 /*** red velvet cake Text****/
 .side-bake-text {
-    font-size: 20px;
-    text-align: center;
-    text-size-adjust: initial;
+	font-size: 20px;
+	text-align: center;
+	text-size-adjust: initial;
 }
 
 /*** red velvet cake image****/
 .recipe-images img {
-    max-width: 60%;
-    max-height: 80%;
+	max-width: 60%;
+	max-height: 80%;
 }
 
 /*** red velvet cake instructions****/
 .instructions {
-    background-color: bisque;
-    text-align: left;
-    margin: auto;
-    width: 90%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 2%;
+	background-color: bisque;
+	text-align: left;
+	margin: auto;
+	width: 90%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
 }
-.what-you-need>ul>
-li {
-    padding-left:0.5em
+
+.what-you-need>ul>li {
+	padding-left: 0.5em
 }
 
 .what-you-need>ul,
 li {
-    padding-left: 3%;
+	padding-left: 3%;
 }
 
 .what-you-need {
-    margin-bottom: 2%;
+	margin-bottom: 2%;
 }
 
 .what-you-need h3 {
-    text-decoration-line: underline;
-    font-size: 20px;
-    text-align: center;
-    text-transform:none;
-    
+	text-decoration-line: underline;
+	font-size: 20px;
+	text-align: center;
+	text-transform: none;
+
 }
 
 .instructions h5 {
-    font-weight: bolder;
-    font-size: 15px;
+	font-weight: bolder;
+	font-size: 15px;
 }
 
 .instructions>hr {
-    color: chocolate;
-    border-top: 1px solid;
+	color: chocolate;
+	border-top: 1px solid;
 }
 
 .preparation {
-    text-align: left;
+	text-align: left;
 }
 
 .preparation>h3 {
-    text-decoration-line: underline;
-    font-size: 20px;
-    text-align: center;
-    text-transform:none;
-    padding-top:1%;
-    padding-bottom: 1%;
+	text-decoration-line: underline;
+	font-size: 20px;
+	text-align: center;
+	text-transform: none;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 .preparation>h5 {
-    font-weight: bolder;
+	font-weight: bolder;
 }
 
 .preparation>p {
-    text-indent: 2%;
+	text-indent: 2%;
 }
 
 /******** Recipe divider line *******/
 #page-divide {
-    margin: auto;
-    /* centred margin */
-    background-color: chocolate;
-    /* colour of the line */
-    height: 4px;
-    /* thickness of the line */
-    border: none;
-    margin-bottom: 4%;
-    width: 60%;
+	margin: auto;
+	/* centred margin */
+	background-color: chocolate;
+	/* colour of the line */
+	height: 4px;
+	/* thickness of the line */
+	border: none;
+	margin-bottom: 4%;
+	width: 60%;
 }
 
 /*****************************************************************************/
@@ -337,194 +336,188 @@ li {
 
 /************Signup ***************/
 #signup {
-    background-image: url("../images/bread.webp");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 20px 10%;
-    flex-grow: 1;
-   
+	background-image: url("../images/bread.webp");
+	background-size: cover;
+	background-position: 75%;
+	padding: 20px 10% 20px 10%;
+	flex-grow: 1;
 }
 
 #signup-form {
-    color: #ffffff;
-    background-color: rgba(17, 14, 11, 0.849);
-    padding: 30px;
+	color: #ffffff;
+	background-color: rgba(17, 14, 11, 0.849);
+	padding: 30px;
 }
 
 /************form heading*************/
 #signup-form>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
+	color: #fafafa;
+	margin-bottom: 20px;
 }
 
 /*********input form text*****************/
 .text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    padding: 0 5px;
+	background: transparent;
+	color: #fafafa;
+	width: 100%;
+	height: 25px;
+	margin: 5px 0 20px 0;
+	border: 1px solid #fafafa;
+	border-radius: 2px;
+	padding: 0 5px;
 }
 
 #feedback {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 100px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    padding: 0 5px;
-    text-align: left;
+	background: transparent;
+	color: #fafafa;
+	width: 100%;
+	height: 100px;
+	margin: 5px 0 20px 0;
+	border: 1px solid #fafafa;
+	border-radius: 2px;
+	padding: 0 5px;
+	text-align: left;
 }
 
 /*********Join button*************/
 .join-button {
-    margin-top: 10px;
-    border-radius: 2px;
-    padding: 10px 20px;
-    font-size: 100%;
-    background-color: white;
-    color: chocolate;
+	margin-top: 10px;
+	border-radius: 2px;
+	padding: 10px 20px;
+	font-size: 100%;
+	background-color: white;
+	color: chocolate;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Form */
-    #signup {
-        background-position: center;
-        position: relative;
-    }
+	/* Form */
+	#signup {
+		background-position: center;
+		position: relative;
+	}
 
-    #signup-form {
-        max-width: 400px;
-        /* position:absolute;*/
-        left: 10%;
-        top: 150px;
-    }
+	#signup-form {
+		max-width: 400px;
+		/* position:absolute;*/
+		left: 10%;
+		top: 150px;
+	}
 
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
+	.text-input:hover {
+		border-color: #f16c6b;
+	}
 
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
-    }
+	.join-button:hover {
+		background-color: #fafafa;
+		color: #454b1b;
+	}
 }
 
 /********************************************************************/
 /************** Footer **********************************************/
 /********************************************************************/
 footer {
-    background-color: chocolate;
-    padding: 20px;
+	background-color: chocolate;
+	padding: 20px;
 }
 
 footer>h3 {
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
 }
 
 footer>p {
-    text-align: center;
-    color: white;
-    font-weight: bolder;
-    font-size: 20px;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
 }
 
 
-
 #social-networks {
-    text-align: right;
-    /*the footer social icons to be in the right*/
-    padding: 20px;
-    /*gives padding of the icons*/
-    display: flex;
-    /* places them side by side horizontally*/
-    justify-content: center;
-    /*place icons to center*/
-    list-style-type: none;
+	text-align: right;
+	/*the footer social icons to be in the right*/
+	padding: 20px;
+	/*gives padding of the icons*/
+	display: flex;
+	/* places them side by side horizontally*/
+	justify-content: center;
+	/*place icons to center*/
+	list-style-type: none;
 }
 
 /*Social - networks i elements. ***/
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: white;
-    margin: 0 5px;
-    /*space icons*/
+	font-size: 160%;
+	padding: 5%;
+	color: white;
+	margin: 0 5px;
+	/*space icons*/
 }
 
 /************ Media query: tablets and larger (768px and up)**************/
 @media screen and (min-width:768px) {
 
-    /*Header*/
-    /* navigation bar styles with dropdown toggle on tablet divices*/
-    nav {
-        display: block;
-        position: relative;
-        /*set the position to relative*/
-        box-shadow: none;
-        /* hide the box shadow as we no longer need it  */
-        width: fit-content;
-        /* it no longer takes up all of the space in the header */
-        padding-right: 1rem;
-        /* so our menu items will not stick to the edge of the screen */
+	/*Header*/
+	/* navigation bar styles with dropdown toggle on tablet divices*/
+	nav {
+		display: block;
+		position: relative;
+		/*set the position to relative*/
+		box-shadow: none;
+		/* hide the box shadow as we no longer need it  */
+		width: fit-content;
+		/* it no longer takes up all of the space in the header */
+		padding-right: 1rem;
+		/* so our menu items will not stick to the edge of the screen */
+	}
 
-    }
+	#menu {
+		display: flex;
+	}
 
-    #menu {
-        display: flex;
-        
+	#menu>li {
+		padding-left: 1rem;
+		/* to give breathing space  */
+	}
 
-    }
+	.nav-toggle-label {
+		display: none;
+		/* this hides the toggle X */
+	}
 
-    #menu>li {
-        padding-left: 1rem;
-        /* to give breathing space  */
+	#logo {
+		font-size: 280%;
+		/* to make use of the new space in tablet and make font bigger to fill the space*/
+		line-height: 75px;
+		/* to give more space at the top*/
+		margin: 0 0.5rem;
+		/* extra margin to the left and right */
+	}
 
-    }
-
-    .nav-toggle-label {
-        display: none;
-        /* this hides the toggle X */
-    }
-
-    #logo {
-        font-size: 280%;
-        /* to make use of the new space in tablet and make font bigger to fill the space*/
-        line-height: 75px;
-        /* to give more space at the top*/
-        margin: 0 0.5rem;
-        /* extra margin to the left and right */
-    }
-
-    /*Main Content */
-    main {
-        /* Push main content down to accommodate larger header  */
-        margin-top: 79px;
-    }
+	/*Main Content */
+	main {
+		/* Push main content down to accommodate larger header  */
+		margin-top: 79px;
+	}
 }
 
 /********** Large devices (laptops and desktops, 992px and up  *********/
 @media screen and (min-width:992px) {
-    #menu a:hover {
-        /* hover pseudo class*/
-        border-bottom: 1px solid white;
-        /* hover will appear at the bottom with an underline with the chosen color*/
-    }
-
+	#menu a:hover {
+		/* hover pseudo class*/
+		border-bottom: 1px solid white;
+		/* hover will appear at the bottom with an underline with the chosen color*/
+	}
 }
+
 /* Media query: tablets and lower (768px and down) */
 @media screen and (max-width: 768px) {
-    .recipe-images img {
-        max-width: 100%;
-        max-height: 80%;
-    }
+	.recipe-images img {
+		max-width: 100%;
+		max-height: 80%;
+	}
 }
