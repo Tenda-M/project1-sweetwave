@@ -196,10 +196,13 @@ main {
     width: 100%;
     height: auto;
 }
-
+ .about-image div{
+    margin-bottom: 50px;
+ }
+/*
 #image-and-text {
     margin-bottom: 50px;
-}
+}*/
 
 .about-image img {
     width: 95%;
