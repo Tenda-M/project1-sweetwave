@@ -55,7 +55,7 @@ header a {
 	/* take care of the default link color being applied by the browser */
 	letter-spacing: 2px;
 	/* to give breathing space between the letters*/
-	color:white;
+	color:black;
 }
 
 /*Rules for menu id*/
@@ -77,7 +77,7 @@ header a {
 
 /* Rules for home usiing class active */
 .active {
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid black;
 	/* underlining the home navigation bar*/
 }
 
@@ -88,7 +88,7 @@ nav {
 	/* setting the position value to absolute, Absolute positioning takes an element outside the normal
     flow of the page structure.  */
 	background-color: chocolate;
-	/* changing the nav bar background color to white*/
+	/* changing the nav bar background color */
 	width: 100%;
 	/* give it and 100% width so that he nav fits the full screen*/
 	left: 0;
@@ -118,7 +118,7 @@ nav {
 /*the nav toggle label size and color*/
 .nav-toggle-label {
 	font-size: 2rem;
-	color: white;
+	color:black;
 	/*size*/
 }
 
@@ -431,12 +431,12 @@ footer {
 footer>h3 {
 	text-transform: uppercase;
 	text-align: center;
-	color: white;
+	color:black;
 }
 
 footer>p {
 	text-align: center;
-	color:white;
+	color:black;
 	font-weight: bolder;
 	font-size: 20px;
 }
@@ -458,7 +458,7 @@ footer>p {
 #social-networks i {
 	font-size: 160%;
 	padding: 5%;
-	color: white;
+	color:black;
 	margin: 0 5px;
 	/*space icons*/
 }
@@ -514,7 +514,7 @@ footer>p {
 @media screen and (min-width:992px) {
 	#menu a:hover {
 		/* hover pseudo class*/
-		border-bottom: 1px solid white;
+		border-bottom: 1px solid black;
 		/* hover will appear at the bottom with an underline with the chosen color*/
 	}
 }
