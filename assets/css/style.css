@@ -109,7 +109,7 @@ nav {
 	display: block;
 }
 
-/*. */
+/*nav toggle */
 #nav-toggle {
 	display: none;
 	/* this is to hide the check box as we do not need it seen*/
@@ -124,19 +124,17 @@ nav {
 
 /***************** Manin Content *****************/
 main {
-	/*background-color: bisque;
      /* Make nain element to take up extra-space and should not shrink when ther is space left in it. Any surplus space to push footer down*/
 	flex: 1 0 auto;
 	margin-top: 47px;
 	/*to our main element to push the content down, that got covered by the header*/
-
 	/* Enable flex properties for child elements */
 	display: flex;
 	flex-direction: column;
 }
 
 /**********************************************************************/
-/********************home page*****************************************/
+/*********************** page *****************************************/
 /**********************************************************************/
 #main-page {
 	background-color: bisque;
@@ -287,7 +285,6 @@ li {
 	font-size: 20px;
 	text-align: center;
 	text-transform: none;
-
 }
 
 .instructions h4 {
