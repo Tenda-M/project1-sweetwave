@@ -120,11 +120,12 @@ The message in the footer invites users to click on the social icons, which make
 There are two sections on the **Recipe** page: the first contains the first recipe, and the second contains the second recipe. The two sections have the same formatting.
 
 Along with the recipe's name and date stamp, there's an eye-catching picture of the finished product. A subsection provides the user with further instructions on how to prepare the baking dish, along with a list of essential ingredients.
-*First Recipe
+
+First Recipe:
 ![Sweetwave recipe page image](<readme/media/recipe-image.png>)
 ![Sweetwave recipe page instructions](<readme/media/recipe-instructions.png>)
 
-*Second Recipe
+Second Recipe:
 ![Sweetwave recipe page image](<readme/media/recipe-image-second.png>)
 ![Sweetwave recipe page instructions](<readme/media/recipe-instructions-second.png>)
 - - - 
